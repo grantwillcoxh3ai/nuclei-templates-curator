@@ -5,7 +5,7 @@ info:
   author: zzeitlin
   severity: info
   reference: https://developer.travis-ci.com/
- 
+  tags: token-spray,travis
 
 self-contained: true
 requests:

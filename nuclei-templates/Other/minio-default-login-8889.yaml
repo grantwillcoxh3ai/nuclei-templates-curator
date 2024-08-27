@@ -4,7 +4,7 @@ info:
   name: Minio Default Login
   author: pikpikcu
   severity: medium
- 
+  tags: default-login,minio
 
 requests:
   - raw:
