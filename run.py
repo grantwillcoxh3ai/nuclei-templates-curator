@@ -18,27 +18,27 @@ requests.packages.urllib3.disable_warnings()
 def md5(msg, encoding='utf8'):
     return hashlib.md5(msg.encode(encoding)).hexdigest()
 
-# 从文件中读取GitHub项目链接
+# Read GitHub project links from the file listed in file_path
 def read_github_links(file_path):
     links = []
-    # 读取CSV文件
+    # Read the CSV file, usually links.csv
     with open(file_path, 'r') as f:
         reader = csv.reader(f)
-        next(reader)  # 跳过标题行
+        next(reader)  # Skip the header row
         for row in reader:
             if row[0].startswith('https://github.com'):
-                links.append(row[0])  # 提取链接并添加到列表中
+                links.append(row[0])  # Extract links and add to list
     return links
 
-# 追加写入GitHub项目链接
+# Add in GitHub links
 def append_github_links(file_path, links):
-    # 追加链接到CSV文件
+    # Append links to CSV file
     with open(file_path, 'a', newline='') as f:
         writer = csv.writer(f)
         for link in links:
-            writer.writerow([link])  # 写入链接
+            writer.writerow([link])  # Write the link
 
-# 搜索项目
+# Search for projects that contain nuclei-templates somehow.
 def search_projects():
     token = os.getenv("GH_TOKEN", "")
     headers = {
@@ -58,9 +58,8 @@ def search_projects():
     # Return the list of projects
     return projects
 
-# 校验yaml文件
+# Verify the YAML files we downloaded using Nuclei
 def nuclei_validate(temp_directory):
-    # 当前目录路径
     current_directory = os.path.join(os.getcwd(),'nuclei-templates')
     nuclei_path = download_extract_executable(temp_directory)
     command = f'{nuclei_path} -validate -t {current_directory}'
@@ -71,7 +70,7 @@ def nuclei_validate(temp_directory):
         output = e.output
     err_pattern = r"Error occurred (?:loading|parsing) template (.*?)\:"
     for err_match in re.findall(err_pattern, output):
-        file_path = err_match.replace("\\", "/")  # 转换文件路径中的反斜杠
+        file_path = err_match.replace("\\", "/")  # Convert backslashes in file path into forward slashes
         if os.path.exists(file_path):
             os.remove(file_path)
             print(f"Deleted file: {file_path}")
@@ -83,7 +82,7 @@ def nuclei_validate(temp_directory):
             shutil.move(old_path, new_path)
             print(f"Renamed file: {old_path} to {new_path}")
 
-# 下载nuclei
+# Extract the nuclei binary for validation from the ZIP files.
 def download_extract_executable(temp_directory):
     system = platform.system()
     if system == 'Windows':
@@ -91,27 +90,27 @@ def download_extract_executable(temp_directory):
     else:
         zip_file_path = './nuclei/nuclei_3.1.10_linux_amd64.zip'
 
-    # 解压压缩包
+    # Unzip the compressed file
     extract_dir = os.path.join(temp_directory, "extracted")
     with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
         zip_ref.extractall(extract_dir)
 
-    # 添加执行权限
+    # Add execute permissions to the unzipped Nuclei binary
     for executable in os.listdir(extract_dir):
         if 'nuclei' in executable:
             executable_path = os.path.join(extract_dir, executable)
             os.chmod(executable_path, 0o755)
             print(executable_path)
-    # 返回可执行文件的完整路径
+    # Return the full path to the Nuclei executable
     return executable_path
 
-# 遍历临时目录中的.yaml文件
+# Iterate through the .yaml files in the temporary directory
 def process_yaml_files(temp_directory):
-    # 创建目标文件夹
+    # Create a destination folder
     target_directory = os.path.join(os.getcwd(),'nuclei-templates', 'Other')
     os.makedirs(target_directory, exist_ok=True)
 
-    # 遍历临时目录
+    # Traverse the temporary directories, looking for .yaml files
     for root, _, files in os.walk(temp_directory):
         for file in files:
             if file.endswith('.yaml'):
@@ -122,9 +121,9 @@ def process_yaml_files(temp_directory):
                 except:
                     continue
 
-                # 判断文件内容是否包含关键字
+                # Determine whether the file content contains at least 5 keywords that are found by default in Nuclei templates.
                 if len([tag for tag in ['id:', 'info:', 'name:', 'author:', 'severity:', 'description:', 'tags:', 'requests:', 'matchers:'] if tag in content]) > 5:
-                    # 判断文件名是否匹配CVE-\d{4}
+                    # Determine whether the file name matches CVE-\d{4}
                     match = re.match(r'CVE-\d{4}', file, re.I)
                     if match:
                         target_folder = os.path.join(
@@ -134,7 +133,7 @@ def process_yaml_files(temp_directory):
                     else:
                         target_path = os.path.join(target_directory, file)
 
-                    # 复制文件到目标路径
+                    # Copy the file to the destination path
                     shutil.copy2(file_path, target_path)
 
 
@@ -152,15 +151,15 @@ def count_yaml_files(temp_directory, links):
                             content = f.read()
                     except:
                         continue
-                    # 判断文件内容是否包含关键字
+                    # Determine whether the file content contains at least 5 of the keywords that would be included by default in a Nuclei template.
                     if len([tag for tag in ['id:', 'info:', 'name:', 'author:', 'severity:', 'description:', 'tags:', 'requests:', 'matchers:'] if tag in content]) > 5:
                         count.setdefault(link, 0)
                         count[link] += 1
     return count
 
-# 清理文件
+# Clean up the Nuclei templates once we are done using them.
 def clear_file():
-    # 当前目录路径
+    # Current directory path
     current_directory = os.path.join(os.getcwd(),'nuclei-templates')
     # 递归遍历文件
     for root, dirs, files in os.walk(current_directory):
@@ -295,37 +294,37 @@ async def main():
     ## 读取GitHub项目链接
     links_1 = read_github_links(file_path)
 
-    ## 搜索项目
+    ## Search for GitHub project links
     links_2 = search_projects()
 
-    ## 新GitHub项目链接
+    ## Make a list of new GitHub project links
     links_3 = [link for link in links_2 if link not in links_1 and link !=
                'https://github.com/20142995/nuclei-templates']
-    print(f'GitHub项目 {len(links_1)} + {len(links_3)} ({len(links_2)})')
+    print(f'GitHub Projects: {len(links_1)} + {len(links_3)} ({len(links_2)})')
 
-    ## 克隆GitHub项目到指定目录
+    ## Clone the GitHub project to the specified directory
     await clone_github_projects(links_1+links_3, temp_directory)
 
-    ## 统计临时目录中的.yaml文件
+    ## Count .yaml files in the temporary directory
     count_1 = count_yaml_files(temp_directory, links_1+links_3)
     links_4 = [link for link in links_3 if count_1.get(link, 0) > 0]
-    print(f'有效GitHub项目 {len(links_4)}')
-    ## 追加写入有效链接
+    print(f'Valid GitHub Projects: {len(links_4)}')
+    ## Append valid GitHub links
     append_github_links(file_path, links_4)
 
-    ## 遍历临时目录中的.yaml文件
+    ## Iterate through the .yaml files in the temporary directory and process them.
     process_yaml_files(temp_directory)
-    ## 清理
+    ## Clean up files
     clear_file()
 
-    ## 校验yaml文件
+    ## Verify the YAML files in the temporary directory
     nuclei_validate(temp_directory)
 
-    ## 再次清理
+    ## Clean up again
     clear_file()
 
-    # 展示部分
-    ## 统计每个子目录下的文件数量
+    # Display section
+    ## Count the number of files in each subdirectory
     count_new = count_files()
     count_new_list = sorted(count_new.items(), key=lambda x: x[0])
     count_old = {}
@@ -340,33 +339,33 @@ async def main():
         with open(data_file, 'w',encoding='utf-8') as f:
             json.dump(count_old, f,ensure_ascii=False,indent = 4)
     table_rows = []
-    table_rows.append("## 分类统计")
+    table_rows.append("## Classification Statistics")
     table_rows.append("| templates type | templates conut | \n| --- | --- |")
     date = time.strftime("%Y-%m-%d")
-    ## 遍历子目录并统计文件数量
+    ## Traverse subdirectories and count the number of files
     for subdir, file_count in count_new_list:
         table_row = f"| {subdir} | {file_count} |"
         table_rows.append(table_row)
-    table_rows.append("## 近几天数量变化情况")
+    table_rows.append("## Changes in quantity in recent days")
     count_old[date] = sum([v for k,v in count_new_list])
     count_old_list = sorted(count_old.items(), key=lambda x: x[0])
     table_row = '|' + ' | '.join([k for k,v in count_old_list[-7:]]) + '|\n' + '|' + '--- | ---'*(len([k for k,v in count_old_list[-7:]])-1) + '|'
     table_rows.append(table_row)
     table_row = '|' + ' | '.join([str(v) for k,v in count_old_list[-7:]]) + '|'
     table_rows.append(table_row)
-    table_rows.append("## 最近新增文件")
+    table_rows.append("## Recently Added Files")
     new_files = get_new_add_file()
     table_rows.append("| templates name | \n| --- |")
     for filename in new_files:
         table_row = f"| {filename} |"
         table_rows.append(table_row)
-    ## 将结果写入README.md文件
+    ## Write the results to the README.md file
     with open('README.md', 'w', encoding='utf8') as f:
         for row in table_rows:
             f.write(f"{row}\n")
     with open(data_file, 'w', encoding='utf-8') as f:
         json.dump(count_old, f, ensure_ascii=False, indent=4)
-# 运行主函数
+# Run the main function
 if __name__ == '__main__':
     asyncio.run(main())
     
