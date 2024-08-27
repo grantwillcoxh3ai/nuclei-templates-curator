@@ -5,7 +5,7 @@ info:
   author: zzeitlin
   reference: https://docs.microsoft.com/en-us/bingmaps/rest-services/locations/find-a-location-by-address
   severity: info
- 
+  tags: token-spray,bing,maps,bingmaps
 
 self-contained: true
 requests:
