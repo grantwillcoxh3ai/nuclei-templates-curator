@@ -5,7 +5,7 @@ info:
   author: zzeitlin
   reference: https://buildkite.com/docs/apis/rest-api/user
   severity: info
- 
+  tags: token-spray,buildkite
 
 self-contained: true
 requests:

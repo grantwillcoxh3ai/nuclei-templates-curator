@@ -49094,5 +49094,19 @@
     "Facebook-client-id.yaml": "2024-08-27 18:16:27",
     "Twilio-api.yaml": "2024-08-27 18:16:27",
     "Shopify-private-token.yaml": "2024-08-27 18:16:27",
-    "Facebook-secret.yaml": "2024-08-27 18:16:27"
+    "Facebook-secret.yaml": "2024-08-27 18:16:27",
+    "mobsf-apktool-lfi.yaml": "2024-08-29 02:14:31",
+    "mobile-security-framework.yaml": "2024-08-29 02:14:31",
+    "relevanssi-live-ajax-search.yaml": "2024-08-29 02:14:31",
+    "salesforce-contentdocument-detector.yaml": "2024-08-29 02:14:31",
+    "Linkedin-id.yaml": "2024-08-29 02:14:31",
+    "elgg-sqli.yaml": "2024-08-29 02:14:31",
+    "CVE-2024-7573.yaml": "2024-08-29 02:14:31",
+    "CVE-2024-8030.yaml": "2024-08-29 02:14:31",
+    "CVE-2024-6312.yaml": "2024-08-29 02:14:31",
+    "CVE-2024-7863.yaml": "2024-08-29 02:14:31",
+    "CVE-2024-8195.yaml": "2024-08-29 02:14:31",
+    "CVE-2024-6448.yaml": "2024-08-29 02:14:31",
+    "CVE-2024-7447.yaml": "2024-08-29 02:14:31",
+    "CVE-2024-6311.yaml": "2024-08-29 02:14:31"
 }
