@@ -9,8 +9,8 @@ info:
     - http://www.bullwark.net/Kategoriler.aspx?KategoriID=24 # software link
   metadata:
     version: Bullwark Momentum Series Web Server JAWS/1.0
-    shodan-query: https://www.shodan.io/search?query=Bullwark&page=1
-    fofa-query: https://fofa.so/result?q=Bullwark&qbase64=QnVsbHdhcms%3D
+    shodan-query: Bullwark
+    fofa-query: "Bullwark"
   tags: bullwark,lfi
 requests:
   - raw:
@@ -26,4 +26,4 @@ requests:
           - 200
       - type: regex
         regex:
-          - "root:.*:0:0"
+          - "root:.*:0:0:"
