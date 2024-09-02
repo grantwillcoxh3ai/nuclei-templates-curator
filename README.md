@@ -21,30 +21,20 @@
 | CVE-2017 | 395 |
 | CVE-2018 | 446 |
 | CVE-2019 | 513 |
-| CVE-2020 | 592 |
-| CVE-2021 | 1732 |
-| CVE-2022 | 2465 |
-| CVE-2023 | 4752 |
+| CVE-2020 | 595 |
+| CVE-2021 | 1733 |
+| CVE-2022 | 2466 |
+| CVE-2023 | 4754 |
 | CVE-2024 | 4830 |
-| Other | 23891 |
+| Other | 23887 |
 ## Changes in quantity in recent days
-|2024-08-26 | 2024-08-27 | 2024-08-28 | 2024-08-29 | 2024-08-30 | 2024-08-31 | 2024-09-01|
+|2024-08-27 | 2024-08-28 | 2024-08-29 | 2024-08-30 | 2024-08-31 | 2024-09-01 | 2024-09-02|
 |--- | ------ | ------ | ------ | ------ | ------ | ---|
-|41432 | 41486 | 41492 | 41504 | 41563 | 41574 | 41587|
+|41486 | 41492 | 41504 | 41563 | 41574 | 41587 | 41590|
 ## Recently Added Files
 | templates name | 
 | --- |
-| Stripe-api-key.yaml |
-| Shopify-shared-secret.yaml |
-| wp-events-manager.yaml |
-| attire.yaml |
-| default-cred-hertzbeat.yaml |
-| CVE-2024-8108.yaml |
-| CVE-2024-5212.yaml |
-| CVE-2024-8276.yaml |
-| CVE-2024-3886.yaml |
-| CVE-2024-7435.yaml |
-| CVE-2024-7717.yaml |
-| CVE-2022-4100.yaml |
-| CVE-2022-4536.yaml |
-| CVE-2022-4539.yaml |
+| Twitter-secret.yaml |
+| Amazon-mws-auth-token.yaml |
+| CVE-2024-5053.yaml |
+| cve-2018-13880.yaml |
