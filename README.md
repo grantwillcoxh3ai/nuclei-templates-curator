@@ -20,76 +20,42 @@
 | CVE-2016 | 249 |
 | CVE-2017 | 397 |
 | CVE-2018 | 446 |
-| CVE-2019 | 514 |
-| CVE-2020 | 593 |
-| CVE-2021 | 1732 |
-| CVE-2022 | 2469 |
-| CVE-2023 | 4762 |
-| CVE-2024 | 5043 |
-| Other | 24282 |
+| CVE-2019 | 513 |
+| CVE-2020 | 595 |
+| CVE-2021 | 1730 |
+| CVE-2022 | 2470 |
+| CVE-2023 | 4763 |
+| CVE-2024 | 5054 |
+| Other | 24289 |
 ## Changes in quantity in recent days
-|2024-09-08 | 2024-09-09 | 2024-09-10 | 2024-09-11 | 2024-09-12 | 2024-09-13 | 2024-09-14|
+|2024-09-09 | 2024-09-10 | 2024-09-11 | 2024-09-12 | 2024-09-13 | 2024-09-14 | 2024-09-15|
 |--- | ------ | ------ | ------ | ------ | ------ | ---|
-|41801 | 41804 | 41806 | 41831 | 41857 | 42151 | 42211|
+|41804 | 41806 | 41831 | 41857 | 42151 | 42211 | 42230|
 ## Recently Added Files
 | templates name | 
 | --- |
-| CVE-2024-8730.yaml |
-| CVE-2024-7888.yaml |
-| CVE-2024-5870.yaml |
-| CVE-2024-3899.yaml |
-| CVE-2024-45625.yaml |
-| CVE-2024-5628.yaml |
-| CVE-2024-8269.yaml |
-| CVE-2024-6792.yaml |
-| CVE-2024-8732.yaml |
-| CVE-2024-6889.yaml |
-| CVE-2024-45270.yaml |
-| CVE-2024-8031.yaml |
-| CVE-2024-7132.yaml |
-| CVE-2024-8663.yaml |
-| CVE-2024-7423.yaml |
-| CVE-2024-6910.yaml |
-| CVE-2024-8747.yaml |
-| CVE-2024-6544.yaml |
-| CVE-2024-8734.yaml |
-| CVE-2024-7354.yaml |
-| CVE-2024-8665.yaml |
-| CVE-2024-8664.yaml |
-| CVE-2024-8656.yaml |
-| CVE-2024-7955.yaml |
-| CVE-2024-8731.yaml |
-| CVE-2024-6888.yaml |
-| CVE-2024-5867.yaml |
-| CVE-2024-7716.yaml |
-| CVE-2024-45429.yaml |
-| CVE-2024-45269.yaml |
-| CVE-2024-5561.yaml |
-| CVE-2024-5789.yaml |
-| CVE-2024-8742.yaml |
-| CVE-2024-7891.yaml |
-| CVE-2024-8242.yaml |
-| CVE-2024-3673.yaml |
-| CVE-2024-5869.yaml |
-| CVE-2024-5567.yaml |
-| CVE-2024-8714.yaml |
-| CVE-2024-5884.yaml |
-| CVE-2024-6020.yaml |
-| CVE-2024-8737.yaml |
-| CVE-2022-2446.yaml |
-| cve-2017-7269.yaml |
-| leira-roles.yaml |
-| email-obfuscate-shortcode.yaml |
-| pdf-thumbnail-generator.yaml |
-| delicate.yaml |
-| leira-cron-jobs.yaml |
-| wp-test-email.yaml |
-| triton-lite.yaml |
-| floating-contact.yaml |
-| custom-post-limits.yaml |
-| neighborly.yaml |
-| lucas-string-replace.yaml |
-| beauty.yaml |
-| exit-notifier.yaml |
-| tweaker5.yaml |
-| secure-downloads.yaml |
+| CVE-2024-8669.yaml |
+| CVE-2024-34750.yaml |
+| CVE-2024-8271.yaml |
+| CVE-2024-6482.yaml |
+| CVE-2024-8797.yaml |
+| CVE-2024-8479.yaml |
+| CVE-2024-6409.yaml |
+| CVE-2024-8246.yaml |
+| CVE-2024-40725.yaml |
+| CVE-2024-43044.yaml |
+| CVE-2024-8724.yaml |
+| cve-2019-17503.yaml |
+| CVE-2022-3459.yaml |
+| intank-iiot.yaml |
+| magento.yaml |
+| gavazzi-automation.yaml |
+| rockwell-plc-detect.yaml |
+| frontpage-exposure.yaml |
+| woocommerce-multiple-free-gift.yaml |
+| siemens-simatic.yaml |
+| hipcam-detect.yaml |
+| wordpress-theme-detect.yaml |
+| noauth-vnc.yaml |
+| CVE-2023-3410.yaml |
+| cve-2020-11547.yaml |
