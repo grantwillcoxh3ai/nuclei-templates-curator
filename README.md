@@ -8,7 +8,7 @@
 | CVE-2004 | 5 |
 | CVE-2005 | 15 |
 | CVE-2006 | 19 |
-| CVE-2007 | 63 |
+| CVE-2007 | 62 |
 | CVE-2008 | 74 |
 | CVE-2009 | 45 |
 | CVE-2010 | 139 |
@@ -18,28 +18,29 @@
 | CVE-2014 | 421 |
 | CVE-2015 | 528 |
 | CVE-2016 | 248 |
-| CVE-2017 | 396 |
+| CVE-2017 | 395 |
 | CVE-2018 | 446 |
 | CVE-2019 | 512 |
-| CVE-2020 | 594 |
-| CVE-2021 | 1726 |
-| CVE-2022 | 2469 |
-| CVE-2023 | 4768 |
+| CVE-2020 | 595 |
+| CVE-2021 | 1725 |
+| CVE-2022 | 2470 |
+| CVE-2023 | 4770 |
 | CVE-2024 | 5085 |
-| Other | 25297 |
+| Other | 25305 |
 ## Changes in quantity in recent days
-|2024-09-15 | 2024-09-16 | 2024-09-17 | 2024-09-18 | 2024-09-19 | 2024-09-20 | 2024-09-21|
+|2024-09-16 | 2024-09-17 | 2024-09-18 | 2024-09-19 | 2024-09-20 | 2024-09-21 | 2024-09-22|
 |--- | ------ | ------ | ------ | ------ | ------ | ---|
-|42230 | 42228 | 42246 | 42259 | 43224 | 43256 | 43263|
+|42228 | 42246 | 42259 | 43224 | 43256 | 43263 | 43272|
 ## Recently Added Files
 | templates name | 
 | --- |
-| CVE-2023-27847.yaml |
-| CVE-2023-39650.yaml |
-| cve-2020-25506.yaml |
-| filecatalyst-panel.yaml |
-| unauthorized-brother-access-detect.yaml |
-| webo-facto-connector.yaml |
-| itop-detect.yaml |
-| CVE-2024-8853.yaml |
-| CVE-2024-36683.yaml |
+| CVE-2023-38192.yaml |
+| CVE-2023-6568.yaml |
+| netpower-npfw-lfi.yaml |
+| canon-c3325-unauth.yaml |
+| canon-c3325-default-login.yaml |
+| tplink-r470t-default-login.yaml |
+| newcapec-rce.yaml |
+| nginx-webui-rce.yaml |
+| CVE-2024-7315.yaml |
+| CVE-2024-8680.yaml |
