@@ -8,7 +8,7 @@
 | CVE-2004 | 5 |
 | CVE-2005 | 15 |
 | CVE-2006 | 19 |
-| CVE-2007 | 62 |
+| CVE-2007 | 63 |
 | CVE-2008 | 74 |
 | CVE-2009 | 45 |
 | CVE-2010 | 139 |
@@ -22,18 +22,27 @@
 | CVE-2018 | 446 |
 | CVE-2019 | 512 |
 | CVE-2020 | 594 |
-| CVE-2021 | 1729 |
+| CVE-2021 | 1726 |
 | CVE-2022 | 2471 |
-| CVE-2023 | 4772 |
-| CVE-2024 | 5088 |
-| Other | 25291 |
+| CVE-2023 | 4771 |
+| CVE-2024 | 5087 |
+| Other | 25311 |
 ## Changes in quantity in recent days
-|2024-09-17 | 2024-09-18 | 2024-09-19 | 2024-09-20 | 2024-09-21 | 2024-09-22 | 2024-09-23|
+|2024-09-18 | 2024-09-19 | 2024-09-20 | 2024-09-21 | 2024-09-22 | 2024-09-23 | 2024-09-24|
 |--- | ------ | ------ | ------ | ------ | ------ | ---|
-|42246 | 42259 | 43224 | 43256 | 43263 | 43272 | 43267|
+|42259 | 43224 | 43256 | 43263 | 43272 | 43267 | 43283|
 ## Recently Added Files
 | templates name | 
 | --- |
-| crossdomin-xml.yaml |
-| centreon-detect.yaml |
-| concrete5xss210530001807-220331-222149.yaml |
+| CVE-2023-3578.yaml |
+| topaccess-default-login.yaml |
+| pcoweb-default-login.yaml |
+| pcoweb-unauth.yaml |
+| voipmonitorrce-220331-222339.yaml |
+| tplink-wR940n-default-login.yaml |
+| canon-iradv-c3325.yaml |
+| pcoweb-panel.yaml |
+| tplink-r470t-panel.yaml |
+| filegator-panel.yaml |
+| topaccess-panel.yaml |
+| filegator-default-login.yaml |
