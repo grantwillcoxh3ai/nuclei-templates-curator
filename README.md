@@ -20,34 +20,55 @@
 | CVE-2016 | 249 |
 | CVE-2017 | 401 |
 | CVE-2018 | 447 |
-| CVE-2019 | 516 |
-| CVE-2020 | 598 |
-| CVE-2021 | 1735 |
-| CVE-2022 | 2473 |
+| CVE-2019 | 517 |
+| CVE-2020 | 597 |
+| CVE-2021 | 1732 |
+| CVE-2022 | 2472 |
 | CVE-2023 | 4777 |
-| CVE-2024 | 5440 |
-| Other | 24696 |
+| CVE-2024 | 5464 |
+| Other | 24717 |
 ## Changes in quantity in recent days
-|2024-10-04 | 2024-10-05 | 2024-10-06 | 2024-10-07 | 2024-10-08 | 2024-10-09 | 2024-10-10|
+|2024-10-05 | 2024-10-06 | 2024-10-07 | 2024-10-08 | 2024-10-09 | 2024-10-10 | 2024-10-11|
 |--- | ------ | ------ | ------ | ------ | ------ | ---|
-|43706 | 43819 | 43874 | 43943 | 43977 | 44005 | 43055|
+|43819 | 43874 | 43943 | 43977 | 44005 | 43055 | 43096|
 ## Recently Added Files
 | templates name | 
 | --- |
-| CVE-2024-7762.yaml |
-| CVE-2024-9449.yaml |
-| CVE-2024-8187.yaml |
-| CVE-2024-9451.yaml |
-| CVE-2024-7963.yaml |
-| stored-credentials.yaml |
-| cRlf.yaml |
-| activeadmin-exposure.yaml |
-| embed-pdf-viewer.yaml |
-| cmsmasters-content-composer.yaml |
-| auctionPlugin.yaml |
-| auto-iframe.yaml |
-| nifi-detect.yaml |
-| strut-debug-mode.yaml |
-| blooog-v1.1.yaml |
-| wp-db-backup.php.yaml |
-| imo-rce.yaml |
+| CVE-2024-8477.yaml |
+| CVE-2024-9022.yaml |
+| CVE-2024-9457.yaml |
+| CVE-2024-9581.yaml |
+| CVE-2024-8729.yaml |
+| CVE-2024-9685.yaml |
+| CVE-2024-9520.yaml |
+| CVE-2024-9463.yaml |
+| CVE-2024-9465.yaml |
+| CVE-2024-9057.yaml |
+| CVE-2024-9519.yaml |
+| CVE-2024-9522.yaml |
+| CVE-2024-8513.yaml |
+| CVE-2024-9518.yaml |
+| CVE-2024-9377.yaml |
+| CVE-2024-9065.yaml |
+| CVE-2024-9064.yaml |
+| CVE-2024-9205.yaml |
+| CVE-2024-9072.yaml |
+| CVE-2024-9067.yaml |
+| CVE-2024-9066.yaml |
+| CVE-2024-8987.yaml |
+| CVE-2024-9074.yaml |
+| gdpr-consent-manager.yaml |
+| inline-svg-elementor.yaml |
+| marketing-and-seo-booster.yaml |
+| GitLab_SAML_Authentication_Bypass_CVE-2024-45409.yaml |
+| advanced-blocks-pro.yaml |
+| cssjockey-add-ons.yaml |
+| shortcodes-anywhere.yaml |
+| qa-heatmap-analytics.yaml |
+| maximum-products-per-user-for-woocommerce.yaml |
+| curatorio.yaml |
+| h3c-iMC-JSF-rce.yaml |
+| easy-social-share-buttons.yaml |
+| notification-for-telegram.yaml |
+| topsec-topSAG-synRequest-rce.yaml |
+| wp-users-masquerade.yaml |
