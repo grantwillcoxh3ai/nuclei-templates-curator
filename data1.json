@@ -52000,5 +52000,18 @@
     "woo-custom-cart-button.yaml": "2024-10-20 02:32:15",
     "CVE-2023-6243.yaml": "2024-10-20 02:32:15",
     "TVE-2024-105272110.yaml": "2024-10-21 02:28:52",
-    "TVE-2024-105141010.yaml": "2024-10-21 02:28:52"
+    "TVE-2024-105141010.yaml": "2024-10-21 02:28:52",
+    "identification-auth-failures.yaml": "2024-10-22 02:26:52",
+    "sato-default-login.yaml": "2024-10-22 02:26:52",
+    "dir-listing-generic.yaml": "2024-10-22 02:26:52",
+    "wp-footnote-xss.yaml": "2024-10-22 02:26:52",
+    "injection.yaml": "2024-10-22 02:26:52",
+    "logging-monitoring-failures.yaml": "2024-10-22 02:26:52",
+    "security-misconfiguration.yaml": "2024-10-22 02:26:52",
+    "insecure-design.yaml": "2024-10-22 02:26:52",
+    "cryptographic-failures.yaml": "2024-10-22 02:26:52",
+    "application-pass-xss.yaml": "2024-10-22 02:26:52",
+    "software-integrity-failures.yaml": "2024-10-22 02:26:52",
+    "Server-Side-Request-Forgery.yaml": "2024-10-22 02:26:52",
+    "broken-access-control.yaml": "2024-10-22 02:26:52"
 }
