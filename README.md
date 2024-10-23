@@ -21,29 +21,56 @@
 | CVE-2017 | 404 |
 | CVE-2018 | 451 |
 | CVE-2019 | 523 |
-| CVE-2020 | 608 |
-| CVE-2021 | 1744 |
-| CVE-2022 | 2478 |
-| CVE-2023 | 4794 |
-| CVE-2024 | 5821 |
-| Other | 25015 |
+| CVE-2020 | 610 |
+| CVE-2021 | 1745 |
+| CVE-2022 | 2477 |
+| CVE-2023 | 4803 |
+| CVE-2024 | 5832 |
+| Other | 25029 |
 ## Changes in quantity in recent days
-|2024-10-16 | 2024-10-17 | 2024-10-18 | 2024-10-19 | 2024-10-20 | 2024-10-21 | 2024-10-22|
+|2024-10-17 | 2024-10-18 | 2024-10-19 | 2024-10-20 | 2024-10-21 | 2024-10-22 | 2024-10-23|
 |--- | ------ | ------ | ------ | ------ | ------ | ---|
-|43287 | 43388 | 43197 | 43615 | 43804 | 43803 | 43815|
+|43388 | 43197 | 43615 | 43804 | 43803 | 43815 | 43851|
 ## Recently Added Files
 | templates name | 
 | --- |
-| identification-auth-failures.yaml |
-| sato-default-login.yaml |
-| dir-listing-generic.yaml |
-| wp-footnote-xss.yaml |
-| injection.yaml |
-| logging-monitoring-failures.yaml |
-| security-misconfiguration.yaml |
-| insecure-design.yaml |
-| cryptographic-failures.yaml |
-| application-pass-xss.yaml |
-| software-integrity-failures.yaml |
-| Server-Side-Request-Forgery.yaml |
-| broken-access-control.yaml |
+| CVE-2024-9231.yaml |
+| CVE-2024-10189.yaml |
+| CVE-2024-8852.yaml |
+| CVE-2024-10003.yaml |
+| CVE-2024-35584.yaml |
+| CVE-2024-9588.yaml |
+| CVE-2024-9627.yaml |
+| CVE-2024-10002.yaml |
+| CVE-2024-9591.yaml |
+| CVE-2024-22476.yaml |
+| CVE-2024-9541.yaml |
+| CVE-2024-9589.yaml |
+| CVE-2024-9590.yaml |
+| CVE-2024-48914.yaml |
+| vendure.yaml |
+| rover-idx.yaml |
+| ticket_support_script.yaml |
+| wp-custom-taxonomy-meta.yaml |
+| TVE-2024-105272125.yaml |
+| make_an_offer_widget.yaml |
+| wp-custom-taxonomy-image.yaml |
+| yacht_listing_script.yaml |
+| food_delivery_script.yaml |
+| doris-default-login.yaml |
+| green-wp-telegram-bot-by-teplitsa.yaml |
+| callback_widget.yaml |
+| fundraising_script.yaml |
+| salesforce-b2c-commerce-webdav.yaml |
+| news-kit-elementor-addons.yaml |
+| rce-dev.yaml |
+| CVE-2023-39560.yaml |
+| CVE-2023-40748.yaml |
+| CVE-2023-40750.yaml |
+| CVE-2023-40755.yaml |
+| CVE-2023-40751.yaml |
+| CVE-2023-40753.yaml |
+| CVE-2023-38040.yaml |
+| CVE-2023-40749.yaml |
+| CVE-2023-40752.yaml |
+| CVE-2023-43373.yaml |
