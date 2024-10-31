@@ -20,44 +20,49 @@
 | CVE-2016 | 254 |
 | CVE-2017 | 406 |
 | CVE-2018 | 451 |
-| CVE-2019 | 524 |
-| CVE-2020 | 609 |
+| CVE-2019 | 523 |
+| CVE-2020 | 612 |
 | CVE-2021 | 1744 |
-| CVE-2022 | 2477 |
+| CVE-2022 | 2476 |
 | CVE-2023 | 4811 |
-| CVE-2024 | 5975 |
-| Other | 25234 |
+| CVE-2024 | 5991 |
+| Other | 25243 |
 ## Changes in quantity in recent days
-|2024-10-24 | 2024-10-25 | 2024-10-26 | 2024-10-27 | 2024-10-28 | 2024-10-29 | 2024-10-30|
+|2024-10-25 | 2024-10-26 | 2024-10-27 | 2024-10-28 | 2024-10-29 | 2024-10-30 | 2024-10-31|
 |--- | ------ | ------ | ------ | ------ | ------ | ---|
-|43906 | 43954 | 47668 | 44023 | 44023 | 44185 | 44211|
+|43954 | 47668 | 44023 | 44023 | 44185 | 44211 | 44237|
 ## Recently Added Files
 | templates name | 
 | --- |
-| CVE-2024-10436.yaml |
-| CVE-2024-9438.yaml |
-| CVE-2024-10000.yaml |
-| CVE-2024-10233.yaml |
-| CVE-2024-10227.yaml |
-| CVE-2024-10266.yaml |
-| CVE-2024-10226.yaml |
-| CVE-2024-7985.yaml |
-| CVE-2024-9629.yaml |
-| CVE-2024-10360.yaml |
-| CVE-2024-10185.yaml |
-| CVE-2024-9505.yaml |
-| CVE-2024-10048.yaml |
-| CVE-2024-10437.yaml |
-| CVE-2024-10008.yaml |
-| CVE-2024-10184.yaml |
-| CVE-2024-10181.yaml |
-| CVE-2024-10312.yaml |
-| CVE-2024-9376.yaml |
-| streamweasels-youtube-integration.yaml |
-| streamweasels-kick-integration.yaml |
-| condition-flow-extractors.yaml |
-| wpc-smart-messages.yaml |
-| post-status-notifier.yaml |
-| py-env-var.yaml |
-| kata-plus.yaml |
-| cf7-telegram.yaml |
+| CVE-2024-10399.yaml |
+| CVE-2024-10108.yaml |
+| CVE-2024-8792.yaml |
+| CVE-2024-9885.yaml |
+| CVE-2024-8871.yaml |
+| CVE-2024-9846.yaml |
+| CVE-2024-10223.yaml |
+| CVE-2024-9990.yaml |
+| CVE-2024-8512.yaml |
+| CVE-2024-9988.yaml |
+| CVE-2024-9886.yaml |
+| CVE-2024-5030.yaml |
+| CVE-2024-9989.yaml |
+| CVE-2024-8627.yaml |
+| CVE-2024-9884.yaml |
+| CVE-2024-9388.yaml |
+| multiprotodynamic.yaml |
+| sonicwall-shellshock.yaml |
+| nuclei-flow-dns.yaml |
+| t-countdown.yaml |
+| cm-table-of-content.yaml |
+| enable-shortcodes-inside-widgetscomments-and-experts.yaml |
+| code-explorer.yaml |
+| widget-or-sidebar-per-shortcode.yaml |
+| ht-team-member.yaml |
+| jetpackcrm-ext-woo-connect.yaml |
+| file-upload-negative.yaml |
+| conditional-flow.yaml |
+| crypto.yaml |
+| wp-baidu-map.yaml |
+| hide-version-warning.yaml |
+| CVE-2023-5816.yaml |
