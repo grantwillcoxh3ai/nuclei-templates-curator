@@ -55019,5 +55019,16 @@
     "pdf-generator-addon-for-elementor-page-builder.yaml": "2024-11-02 02:23:39",
     "sip-reviews-shortcode-woocommerce.yaml": "2024-11-02 02:23:39",
     "maanstore-api.yaml": "2024-11-02 02:23:39",
-    "stacks-mobile-app-builder.yaml": "2024-11-02 02:23:39"
+    "stacks-mobile-app-builder.yaml": "2024-11-02 02:23:39",
+    "CVE-2024-10310.yaml": "2024-11-03 02:31:40",
+    "CVE-2024-10540.yaml": "2024-11-03 02:31:40",
+    "CVE-2024-9868.yaml": "2024-11-03 02:31:40",
+    "CVE-2024-8739.yaml": "2024-11-03 02:31:40",
+    "CVE-2024-9896.yaml": "2024-11-03 02:31:40",
+    "CVE-2024-8670.yaml": "2024-11-03 02:31:40",
+    "hubble-detect.yaml": "2024-11-03 02:31:40",
+    "bbp-core.yaml": "2024-11-03 02:31:40",
+    "azure-blob-core-detect.yaml": "2024-11-03 02:31:40",
+    "cyberpanel-panel.yaml": "2024-11-03 02:31:40",
+    "ip-webcam.yaml": "2024-11-03 02:31:40"
 }
