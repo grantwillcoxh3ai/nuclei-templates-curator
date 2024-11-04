@@ -55030,5 +55030,7 @@
     "bbp-core.yaml": "2024-11-03 02:31:40",
     "azure-blob-core-detect.yaml": "2024-11-03 02:31:40",
     "cyberpanel-panel.yaml": "2024-11-03 02:31:40",
-    "ip-webcam.yaml": "2024-11-03 02:31:40"
+    "ip-webcam.yaml": "2024-11-03 02:31:40",
+    "wordpress-exposure.yaml": "2024-11-04 02:29:20",
+    "nuclei-flow-dns-prefix.yaml": "2024-11-04 02:29:20"
 }

@@ -20,28 +20,19 @@
 | CVE-2016 | 254 |
 | CVE-2017 | 406 |
 | CVE-2018 | 451 |
-| CVE-2019 | 524 |
+| CVE-2019 | 523 |
 | CVE-2020 | 611 |
-| CVE-2021 | 1745 |
+| CVE-2021 | 1747 |
 | CVE-2022 | 2476 |
 | CVE-2023 | 4809 |
 | CVE-2024 | 6166 |
-| Other | 25339 |
+| Other | 25337 |
 ## Changes in quantity in recent days
-|2024-10-28 | 2024-10-29 | 2024-10-30 | 2024-10-31 | 2024-11-01 | 2024-11-02 | 2024-11-03|
+|2024-10-29 | 2024-10-30 | 2024-10-31 | 2024-11-01 | 2024-11-02 | 2024-11-03 | 2024-11-04|
 |--- | ------ | ------ | ------ | ------ | ------ | ---|
-|44023 | 44185 | 44211 | 44237 | 44376 | 44493 | 44507|
+|44185 | 44211 | 44237 | 44376 | 44493 | 44507 | 44506|
 ## Recently Added Files
 | templates name | 
 | --- |
-| CVE-2024-10310.yaml |
-| CVE-2024-10540.yaml |
-| CVE-2024-9868.yaml |
-| CVE-2024-8739.yaml |
-| CVE-2024-9896.yaml |
-| CVE-2024-8670.yaml |
-| hubble-detect.yaml |
-| bbp-core.yaml |
-| azure-blob-core-detect.yaml |
-| cyberpanel-panel.yaml |
-| ip-webcam.yaml |
+| wordpress-exposure.yaml |
+| nuclei-flow-dns-prefix.yaml |
