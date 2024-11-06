@@ -20,23 +20,40 @@
 | CVE-2016 | 254 |
 | CVE-2017 | 406 |
 | CVE-2018 | 451 |
-| CVE-2019 | 524 |
+| CVE-2019 | 525 |
 | CVE-2020 | 609 |
-| CVE-2021 | 1745 |
+| CVE-2021 | 1743 |
 | CVE-2022 | 2476 |
-| CVE-2023 | 4809 |
-| CVE-2024 | 6168 |
-| Other | 25345 |
+| CVE-2023 | 4811 |
+| CVE-2024 | 6182 |
+| Other | 25351 |
 ## Changes in quantity in recent days
-|2024-10-30 | 2024-10-31 | 2024-11-01 | 2024-11-02 | 2024-11-03 | 2024-11-04 | 2024-11-05|
+|2024-10-31 | 2024-11-01 | 2024-11-02 | 2024-11-03 | 2024-11-04 | 2024-11-05 | 2024-11-06|
 |--- | ------ | ------ | ------ | ------ | ------ | ---|
-|44211 | 44237 | 44376 | 44493 | 44507 | 44506 | 44513|
+|44237 | 44376 | 44493 | 44507 | 44506 | 44513 | 44534|
 ## Recently Added Files
 | templates name | 
 | --- |
-| CVE-2024-48360.yaml |
-| secret-manager-not-inuse.yaml |
-| cmdi-ruby-open-rce.yaml |
-| secrets-rotation-disabled.yaml |
-| nexpose-panel.yaml |
-| vabro-backup-file-finder.yaml |
+| CVE-2024-10319.yaml |
+| CVE-2024-10329.yaml |
+| CVE-2024-10114.yaml |
+| CVE-2024-10263.yaml |
+| CVE-2024-10687.yaml |
+| CVE-2024-9657.yaml |
+| CVE-2024-9667.yaml |
+| CVE-2024-10711.yaml |
+| CVE-2024-7429.yaml |
+| CVE-2024-9178.yaml |
+| CVE-2024-9878.yaml |
+| CVE-2024-10097.yaml |
+| CVE-2024-9867.yaml |
+| CVE-2024-9443.yaml |
+| CVE-2024-10482.yaml |
+| CVE-2024-10340.yaml |
+| CVE-2019-0192.yaml |
+| media-library-tools.yaml |
+| loginizer-security.yaml |
+| PhoneNumber.yaml |
+| TVE-2024-105131859.yaml |
+| ultimate-shortcodes-creator.yaml |
+| basticom-framework.yaml |
