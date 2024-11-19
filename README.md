@@ -21,20 +21,32 @@
 | CVE-2017 | 406 |
 | CVE-2018 | 453 |
 | CVE-2019 | 524 |
-| CVE-2020 | 613 |
-| CVE-2021 | 1743 |
-| CVE-2022 | 2481 |
-| CVE-2023 | 4810 |
+| CVE-2020 | 612 |
+| CVE-2021 | 1747 |
+| CVE-2022 | 2482 |
+| CVE-2023 | 4812 |
 | CVE-2024 | 6719 |
-| Other | 25739 |
+| Other | 25746 |
 ## Changes in quantity in recent days
-|2024-11-12 | 2024-11-13 | 2024-11-14 | 2024-11-15 | 2024-11-16 | 2024-11-17 | 2024-11-18|
+|2024-11-13 | 2024-11-14 | 2024-11-15 | 2024-11-16 | 2024-11-17 | 2024-11-18 | 2024-11-19|
 |--- | ------ | ------ | ------ | ------ | ------ | ---|
-|44914 | 44930 | 45020 | 45145 | 45411 | 45466 | 45468|
+|44930 | 45020 | 45145 | 45411 | 45466 | 45468 | 45481|
 ## Recently Added Files
 | templates name | 
 | --- |
-| CVE-2024-6966.yaml |
-| CVE-2024-10914.yaml |
-| CVE-2024-10915.yaml |
-| CVE-2011-4969.yaml |
+| CVE-2024-51483.yaml |
+| CVE-2024-8673.yaml |
+| CVE-2022-48166.yaml |
+| CVE-2022-44356.yaml |
+| CVE-2022-48164.yaml |
+| alfresco-panel.yaml |
+| flexmls-detect.yaml |
+| alternc-panel.yaml |
+| akuiteo-panel.yaml |
+| alamos-panel.yaml |
+| thruk-panel.yaml |
+| fortinet-fgfm-detect.yaml |
+| changedetection.yaml |
+| amazon-ecs-defualt-page.yaml |
+| anmelden-panel.yaml |
+| wl-wn533a8_firmware.yaml |
