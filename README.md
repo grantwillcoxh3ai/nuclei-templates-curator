@@ -20,33 +20,42 @@
 | CVE-2016 | 254 |
 | CVE-2017 | 406 |
 | CVE-2018 | 453 |
-| CVE-2019 | 525 |
-| CVE-2020 | 610 |
-| CVE-2021 | 1747 |
-| CVE-2022 | 2481 |
-| CVE-2023 | 4811 |
-| CVE-2024 | 6734 |
-| Other | 25747 |
+| CVE-2019 | 524 |
+| CVE-2020 | 611 |
+| CVE-2021 | 1746 |
+| CVE-2022 | 2483 |
+| CVE-2023 | 4810 |
+| CVE-2024 | 6755 |
+| Other | 25756 |
 ## Changes in quantity in recent days
-|2024-11-14 | 2024-11-15 | 2024-11-16 | 2024-11-17 | 2024-11-18 | 2024-11-19 | 2024-11-20|
+|2024-11-15 | 2024-11-16 | 2024-11-17 | 2024-11-18 | 2024-11-19 | 2024-11-20 | 2024-11-21|
 |--- | ------ | ------ | ------ | ------ | ------ | ---|
-|45020 | 45145 | 45411 | 45466 | 45468 | 45481 | 45494|
+|45145 | 45411 | 45466 | 45468 | 45481 | 45494 | 45524|
 ## Recently Added Files
 | templates name | 
 | --- |
-| CVE-2024-10390.yaml |
-| CVE-2024-10268.yaml |
-| CVE-2024-11038.yaml |
-| CVE-2024-11069.yaml |
-| CVE-2024-11194.yaml |
-| CVE-2024-9777.yaml |
-| CVE-2024-11098.yaml |
-| CVE-2024-10388.yaml |
-| CVE-2024-9830.yaml |
-| CVE-2024-11224.yaml |
-| CVE-2024-11036.yaml |
-| CVE-2024-11198.yaml |
-| CVE-2024-11195.yaml |
-| CVE-2024-10486.yaml |
-| wpb-popup-for-contact-form-7.yaml |
-| elfsight-telegram-chat-cc.yaml |
+| CVE-2024-10551.yaml |
+| CVE-2024-11179.yaml |
+| CVE-2024-10872.yaml |
+| CVE-2024-11278.yaml |
+| CVE-2024-10891.yaml |
+| CVE-2024-11277.yaml |
+| CVE-2024-10665.yaml |
+| CVE-2024-10899.yaml |
+| CVE-2024-9474.yaml |
+| CVE-2024-10855.yaml |
+| CVE-2024-8726.yaml |
+| CVE-2024-9239.yaml |
+| CVE-2024-9653.yaml |
+| CVE-2024-0012.yaml |
+| CVE-2024-10520.yaml |
+| CVE-2024-10913.yaml |
+| CVE-2024-10900.yaml |
+| CVE-2024-11400.yaml |
+| CVE-2024-11154.yaml |
+| CVE-2024-10365.yaml |
+| CVE-2024-7056.yaml |
+| yaad-sarig-payment-gateway-for-wc.yaml |
+| localhost-vhost-difference.yaml |
+| simple-side-tab.yaml |
+| aes.yaml |
