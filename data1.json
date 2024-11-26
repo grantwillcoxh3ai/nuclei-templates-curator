@@ -56327,5 +56327,7 @@
     "fwdmsp.yaml": "2024-11-24 02:35:28",
     "tribute-testimonial-gridslider.yaml": "2024-11-24 02:35:28",
     "oa-social-login.yaml": "2024-11-24 02:35:28",
-    "CVE-2024-46938.yaml": "2024-11-25 02:33:03"
+    "CVE-2024-46938.yaml": "2024-11-25 02:33:03",
+    "crlfi.yaml": "2024-11-26 02:32:15",
+    "Command Injection.yaml": "2024-11-26 02:32:15"
 }
