@@ -56581,5 +56581,8 @@
     "login-with-vipps.yaml": "2024-11-29 02:32:56",
     "ragic-shortcode.yaml": "2024-11-29 02:32:56",
     "seo-landing-page-generator.yaml": "2024-11-29 02:32:56",
-    "image-alt-text.yaml": "2024-11-29 02:32:56"
+    "image-alt-text.yaml": "2024-11-29 02:32:56",
+    "CVE-2024-51482.yaml": "2024-11-30 02:28:40",
+    "oob-sqli-2.yaml": "2024-11-30 02:28:40",
+    "CVE-2021-30462.yaml": "2024-11-30 02:28:40"
 }
