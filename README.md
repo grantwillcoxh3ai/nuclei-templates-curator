@@ -20,22 +20,22 @@
 | CVE-2016 | 254 |
 | CVE-2017 | 406 |
 | CVE-2018 | 453 |
-| CVE-2019 | 523 |
-| CVE-2020 | 613 |
-| CVE-2021 | 1749 |
-| CVE-2022 | 2481 |
-| CVE-2023 | 4810 |
-| CVE-2024 | 7071 |
-| Other | 25702 |
+| CVE-2019 | 525 |
+| CVE-2020 | 612 |
+| CVE-2021 | 1746 |
+| CVE-2022 | 2483 |
+| CVE-2023 | 4811 |
+| CVE-2024 | 7072 |
+| Other | 25955 |
 ## Changes in quantity in recent days
-|2024-11-25 | 2024-11-26 | 2024-11-27 | 2024-11-28 | 2024-11-29 | 2024-11-30 | 2024-12-01|
+|2024-11-26 | 2024-11-27 | 2024-11-28 | 2024-11-29 | 2024-11-30 | 2024-12-01 | 2024-12-02|
 |--- | ------ | ------ | ------ | ------ | ------ | ---|
-|45788 | 45792 | 45821 | 46009 | 46035 | 46037 | 45788|
+|45792 | 45821 | 46009 | 46035 | 46037 | 45788 | 46043|
 ## Recently Added Files
 | templates name | 
 | --- |
-| CVE-2024-11252.yaml |
-| outdated-software-versions.yaml |
-| cors-misconfiguration.yaml |
-| http-header-misconfiguration.yaml |
-| CVE-2020-24881.yaml |
+| CVE-2024-9186.yaml |
+| yonyou-yonbip-lfi.yaml |
+| fronsetiav-xss.yaml |
+| infoblox-nios-panel.yaml |
+| dufs-detect.yaml |
