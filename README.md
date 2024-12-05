@@ -20,52 +20,62 @@
 | CVE-2016 | 254 |
 | CVE-2017 | 406 |
 | CVE-2018 | 453 |
-| CVE-2019 | 524 |
-| CVE-2020 | 613 |
+| CVE-2019 | 525 |
+| CVE-2020 | 611 |
 | CVE-2021 | 1747 |
 | CVE-2022 | 2484 |
-| CVE-2023 | 4813 |
-| CVE-2024 | 7092 |
-| Other | 25971 |
+| CVE-2023 | 4815 |
+| CVE-2024 | 7118 |
+| Other | 25989 |
 ## Changes in quantity in recent days
-|2024-11-28 | 2024-11-29 | 2024-11-30 | 2024-12-01 | 2024-12-02 | 2024-12-03 | 2024-12-04|
+|2024-11-29 | 2024-11-30 | 2024-12-01 | 2024-12-02 | 2024-12-03 | 2024-12-04 | 2024-12-05|
 |--- | ------ | ------ | ------ | ------ | ------ | ---|
-|46009 | 46035 | 46037 | 45788 | 46043 | 46051 | 46083|
+|46035 | 46037 | 45788 | 46043 | 46051 | 46083 | 46128|
 ## Recently Added Files
 | templates name | 
 | --- |
-| CVE-2024-11805.yaml |
-| CVE-2024-11898.yaml |
-| CVE-2024-1483.yaml |
-| CVE-2024-11326.yaml |
-| CVE-2024-11391.yaml |
-| CVE-2024-11782.yaml |
-| CVE-2024-11200.yaml |
-| CVE-2024-9694.yaml |
-| CVE-2024-11866.yaml |
-| CVE-2024-11453.yaml |
-| CVE-2024-11853.yaml |
-| CVE-2024-12062.yaml |
-| CVE-2024-11461.yaml |
-| CVE-2024-11732.yaml |
-| CVE-2024-10484.yaml |
-| CVE-2024-11325.yaml |
-| CVE-2024-11844.yaml |
-| CVE-2024-9058.yaml |
-| CVE-2024-3848.yaml |
-| CVE-2024-11707.yaml |
-| scratch-win-giveaways-for-website-facebook.yaml |
-| goodlayers-core.yaml |
-| twenty-detect.yaml |
-| cmsmasters-elementor-addon.yaml |
-| my-auctions-allegro-free-edition.yaml |
-| open_journal_systems.yaml |
-| form-data-collector.yaml |
-| bmlt-tabbed-map.yaml |
-| 13.1.3.yaml |
-| quick-license-manager.yaml |
-| pkp-lib-open-redirect.yaml |
-| k8s-missing-network-policies.yaml |
-| aweber-wp.yaml |
-| vince-panel.yaml |
-| jalbum-bridge.yaml |
+| CVE-2024-11293.yaml |
+| CVE-2024-10832.yaml |
+| CVE-2024-11643.yaml |
+| CVE-2024-10952.yaml |
+| CVE-2024-10885.yaml |
+| CVE-2024-11897.yaml |
+| CVE-2024-11814.yaml |
+| CVE-2024-5020.yaml |
+| CVE-2024-11807.yaml |
+| CVE-2024-10787.yaml |
+| CVE-2024-11747.yaml |
+| CVE-2024-10663.yaml |
+| CVE-2024-12099.yaml |
+| CVE-2024-11903.yaml |
+| CVE-2024-11880.yaml |
+| CVE-2024-11813.yaml |
+| CVE-2024-49380.yaml |
+| CVE-2024-11466.yaml |
+| CVE-2024-11952.yaml |
+| CVE-2024-10664.yaml |
+| CVE-2024-11854.yaml |
+| CVE-2024-10587.yaml |
+| CVE-2024-10567.yaml |
+| CVE-2024-11935.yaml |
+| CVE-2024-8962.yaml |
+| CVE-2024-11093.yaml |
+| CVE-2024-11769.yaml |
+| CVE-2022-31470.yaml |
+| responsive-youtube-videos.yaml |
+| email-address-obfuscation.yaml |
+| mightyforms.yaml |
+| wp-job-manager-companies.yaml |
+| easy-facebook-likebox-premium.yaml |
+| dp-intro-tours.yaml |
+| listdom.yaml |
+| posti-shipping.yaml |
+| dollie.yaml |
+| order-status-for-woocommerce.yaml |
+| wp-ecards-invites.yaml |
+| amin-chat-button.yaml |
+| sg-helper.yaml |
+| b-testimonial.yaml |
+| webmail.yaml |
+| allaccessible.yaml |
+| CVE-2023-6978.yaml |
