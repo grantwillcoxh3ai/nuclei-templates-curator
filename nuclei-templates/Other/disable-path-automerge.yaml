@@ -1,0 +1,14 @@
+id: "test"
+
+info:
+  name: "test"
+  author: "pdteam"
+  description: "test"
+  reference: []
+  severity: "info"
+  tags: "test"
+
+http:
+  - method: "GET"
+    path:
+      - "{{BaseURL}}/"
