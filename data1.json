@@ -56903,5 +56903,12 @@
     "CVE-2023-46455.yaml": "2024-12-08 02:47:41",
     "CVE-2024-12209.yaml": "2024-12-09 02:39:34",
     "wp-health.yaml": "2024-12-09 02:39:34",
-    "path-xss.yaml": "2024-12-09 02:39:34"
+    "path-xss.yaml": "2024-12-09 02:39:34",
+    "exposed-pki-cert.yaml": "2024-12-10 02:38:15",
+    "sqs-deadletter-disabled.yaml": "2024-12-10 02:38:15",
+    "issabel-pbx.yaml": "2024-12-10 02:38:15",
+    "sqs-encryption-disabled.yaml": "2024-12-10 02:38:15",
+    "elb-delete-protection-disabled.yaml": "2024-12-10 02:38:15",
+    "sqs-queue-exposed.yaml": "2024-12-10 02:38:15",
+    "CVE-2023-37599.yaml": "2024-12-10 02:38:15"
 }

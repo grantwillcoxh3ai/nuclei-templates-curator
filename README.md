@@ -21,19 +21,23 @@
 | CVE-2017 | 406 |
 | CVE-2018 | 453 |
 | CVE-2019 | 525 |
-| CVE-2020 | 613 |
-| CVE-2021 | 1745 |
-| CVE-2022 | 2486 |
-| CVE-2023 | 4817 |
-| CVE-2024 | 7255 |
-| Other | 26074 |
+| CVE-2020 | 611 |
+| CVE-2021 | 1748 |
+| CVE-2022 | 2487 |
+| CVE-2023 | 4818 |
+| CVE-2024 | 7256 |
+| Other | 26076 |
 ## Changes in quantity in recent days
-|2024-12-03 | 2024-12-04 | 2024-12-05 | 2024-12-06 | 2024-12-07 | 2024-12-08 | 2024-12-09|
+|2024-12-04 | 2024-12-05 | 2024-12-06 | 2024-12-07 | 2024-12-08 | 2024-12-09 | 2024-12-10|
 |--- | ------ | ------ | ------ | ------ | ------ | ---|
-|46051 | 46083 | 46128 | 46146 | 46310 | 46348 | 46354|
+|46083 | 46128 | 46146 | 46310 | 46348 | 46354 | 46360|
 ## Recently Added Files
 | templates name | 
 | --- |
-| CVE-2024-12209.yaml |
-| wp-health.yaml |
-| path-xss.yaml |
+| exposed-pki-cert.yaml |
+| sqs-deadletter-disabled.yaml |
+| issabel-pbx.yaml |
+| sqs-encryption-disabled.yaml |
+| elb-delete-protection-disabled.yaml |
+| sqs-queue-exposed.yaml |
+| CVE-2023-37599.yaml |
