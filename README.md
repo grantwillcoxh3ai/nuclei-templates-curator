@@ -20,96 +20,19 @@
 | CVE-2016 | 257 |
 | CVE-2017 | 410 |
 | CVE-2018 | 524 |
-| CVE-2019 | 759 |
+| CVE-2019 | 760 |
 | CVE-2020 | 1097 |
-| CVE-2021 | 2200 |
-| CVE-2022 | 2961 |
-| CVE-2023 | 5142 |
+| CVE-2021 | 2201 |
+| CVE-2022 | 2962 |
+| CVE-2023 | 5145 |
 | CVE-2024 | 7615 |
-| Other | 26302 |
+| Other | 26304 |
 ## Changes in quantity in recent days
-|2024-12-09 | 2024-12-10 | 2024-12-11 | 2024-12-12 | 2024-12-13 | 2024-12-14 | 2024-12-15|
+|2024-12-10 | 2024-12-11 | 2024-12-12 | 2024-12-13 | 2024-12-14 | 2024-12-15 | 2024-12-16|
 |--- | ------ | ------ | ------ | ------ | ------ | ---|
-|46354 | 46360 | 48579 | 48596 | 48744 | 48972 | 49047|
+|46360 | 48579 | 48596 | 48744 | 48972 | 49047 | 49055|
 ## Recently Added Files
 | templates name | 
 | --- |
-| CVE-2024-11721.yaml |
-| CVE-2024-12448.yaml |
-| CVE-2024-11751.yaml |
-| CVE-2024-12474.yaml |
-| CVE-2024-11879.yaml |
-| CVE-2024-11715.yaml |
-| CVE-2024-12523.yaml |
-| CVE-2024-12628.yaml |
-| CVE-2024-11759.yaml |
-| CVE-2024-11755.yaml |
-| CVE-2024-12422.yaml |
-| CVE-2024-12502.yaml |
-| CVE-2024-12555.yaml |
-| CVE-2024-11876.yaml |
-| CVE-2024-11869.yaml |
-| CVE-2024-11883.yaml |
-| CVE-2024-11712.yaml |
-| CVE-2024-12447.yaml |
-| CVE-2024-11710.yaml |
-| CVE-2024-12446.yaml |
-| CVE-2024-11888.yaml |
-| CVE-2024-11720.yaml |
-| CVE-2024-11884.yaml |
-| CVE-2024-11714.yaml |
-| CVE-2024-11889.yaml |
-| CVE-2024-12501.yaml |
-| CVE-2024-11462.yaml |
-| CVE-2024-11867.yaml |
-| CVE-2024-11855.yaml |
-| CVE-2024-11095.yaml |
-| CVE-2024-11763.yaml |
-| CVE-2024-11713.yaml |
-| CVE-2024-11877.yaml |
-| CVE-2024-11894.yaml |
-| CVE-2024-12578.yaml |
-| CVE-2024-12458.yaml |
-| CVE-2024-9698.yaml |
-| CVE-2024-12411.yaml |
-| CVE-2024-10690.yaml |
-| CVE-2024-10646.yaml |
-| CVE-2024-12517.yaml |
-| CVE-2024-11752.yaml |
-| CVE-2024-11873.yaml |
-| CVE-2024-12459.yaml |
-| CVE-2024-11770.yaml |
-| CVE-2024-11711.yaml |
-| CVE-2024-11865.yaml |
-| connatix-video-embed.yaml |
-| ymc-states-map.yaml |
-| ganohrs-toggle-shortcode.yaml |
-| buk-appointments.yaml |
-| woo-cart-count-shortcode.yaml |
-| bukza.yaml |
-| tcbd-popover.yaml |
-| companion-portfolio.yaml |
-| sip-calculator.yaml |
-| simple-locator.yaml |
-| import-eventbrite-events.yaml |
-| ider-login.yaml |
-| wp-ad-guru.yaml |
-| post-types-carousel-slider.yaml |
-| ims-countdown.yaml |
-| get-post-content-shortcode.yaml |
-| bodi0s-easy-cache.yaml |
-| filestack-upload.yaml |
-| the-permalinker.yaml |
-| geodatasource-country-region-dropdown.yaml |
-| gwtx-guoweishuzi-generate-rce.yaml |
-| cricket-score.yaml |
-| posts-and-products-views.yaml |
-| my-idx-home-search.yaml |
-| post-to-pdf.yaml |
-| glomex-oembed.yaml |
-| koalendar-free-booking-widget.yaml |
-| visualmodo-elements.yaml |
-| shortcode-elementor.yaml |
-| eveeno.yaml |
-| tabs-maker.yaml |
-| kredeum-nfts.yaml |
+| wp_go_maps.yaml |
+| hue-wireless-lighting.yaml |
