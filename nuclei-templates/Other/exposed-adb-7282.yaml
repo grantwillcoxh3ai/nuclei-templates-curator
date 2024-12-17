@@ -4,7 +4,7 @@ info:
   name: Exposed Android Debug Bridge
   author: pdteam,pikpikcu
   severity: critical
-  tags: network,adb,rce,android
+  tags: network,adb,rce
   reference: https://www.hackeracademy.org/how-to-hack-android-device-with-adb-android-debugging-bridge
 
 network:
@@ -17,7 +17,7 @@ network:
 
     host:
       - "{{Hostname}}"
-      - "{{Host}}:5555"
+      - "{{Hostname}}:5555"
 
     matchers:
       - type: word

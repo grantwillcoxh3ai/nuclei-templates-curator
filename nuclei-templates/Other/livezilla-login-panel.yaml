@@ -4,7 +4,7 @@ info:
   name: Livezilla login detect
   author: __Fazal
   severity: info
-  tags: panel,livezilla,login
+  tags: panel,livezilla
 
 requests:
   - method: GET

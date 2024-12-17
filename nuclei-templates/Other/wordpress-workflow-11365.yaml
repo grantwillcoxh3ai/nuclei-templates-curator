@@ -6,6 +6,8 @@ info:
 
 workflows:
 
-  - template: technologies/wordpress-detect.yaml
-    subtemplates:
-      - tags: wordpress
+  - template: technologies/tech-detect.yaml
+    matchers:
+      - name: wordpress
+        subtemplates:
+          - tags: wordpress

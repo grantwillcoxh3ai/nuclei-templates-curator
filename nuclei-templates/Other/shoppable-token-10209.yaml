@@ -3,10 +3,9 @@ id: shoppable-token
 info:
   name: Shoppable Service Auth Token
   author: philippedelteil
-  severity: unknown
-  reference:
-    - https://ask.shoppable.com/knowledge/quick-start-api-guide
-  tags: exposure,shoppable,token,auth,service
+  severity: info
+  reference: https://ask.shoppable.com/knowledge/quick-start-api-guide
+  tags: exposure,shoppable,token
 
 requests:
   - method: GET

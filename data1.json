@@ -59601,5 +59601,21 @@
     "tabs-maker.yaml": "2024-12-15 02:48:51",
     "kredeum-nfts.yaml": "2024-12-15 02:48:51",
     "wp_go_maps.yaml": "2024-12-16 02:39:40",
-    "hue-wireless-lighting.yaml": "2024-12-16 02:39:40"
+    "hue-wireless-lighting.yaml": "2024-12-16 02:39:40",
+    "cve-2021-26722.yaml": "2024-12-17 02:36:41",
+    "unencrypted-bigip-ltm-cookie-10973.yaml": "2024-12-17 02:36:41",
+    "shopware-detect-10210.yaml": "2024-12-17 02:36:41",
+    "apphp-microblog-rce.yaml": "2024-12-17 02:36:41",
+    "sophos-fw-version-detect-10398.yaml": "2024-12-17 02:36:41",
+    "actuator.yaml": "2024-12-17 02:36:41",
+    "strapi-cms-detect-10537.yaml": "2024-12-17 02:36:41",
+    "mautic-crm-detect-8787.yaml": "2024-12-17 02:36:41",
+    "4147374715.yaml": "2024-12-17 02:36:41",
+    "wazuh-detect-11110.yaml": "2024-12-17 02:36:41",
+    "ruijie-nbr1300g-cli-password-leak-9934.yaml": "2024-12-17 02:36:41",
+    "bullwark-momentum-lfi-804.yaml": "2024-12-17 02:36:41",
+    "shenzhoushuma-DCME-320-online_list-fileread.yaml": "2024-12-17 02:36:41",
+    "subdomain-takeOver.yaml": "2024-12-17 02:36:41",
+    "CVE-2024-36404.yaml": "2024-12-17 02:36:41",
+    "CVE-2024-38819.yaml": "2024-12-17 02:36:41"
 }

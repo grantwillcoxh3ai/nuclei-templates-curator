@@ -19,20 +19,34 @@
 | CVE-2015 | 533 |
 | CVE-2016 | 257 |
 | CVE-2017 | 410 |
-| CVE-2018 | 524 |
-| CVE-2019 | 760 |
+| CVE-2018 | 525 |
+| CVE-2019 | 759 |
 | CVE-2020 | 1097 |
-| CVE-2021 | 2201 |
-| CVE-2022 | 2962 |
-| CVE-2023 | 5145 |
-| CVE-2024 | 7615 |
-| Other | 26304 |
+| CVE-2021 | 2202 |
+| CVE-2022 | 2966 |
+| CVE-2023 | 5144 |
+| CVE-2024 | 7618 |
+| Other | 26280 |
 ## Changes in quantity in recent days
-|2024-12-10 | 2024-12-11 | 2024-12-12 | 2024-12-13 | 2024-12-14 | 2024-12-15 | 2024-12-16|
+|2024-12-11 | 2024-12-12 | 2024-12-13 | 2024-12-14 | 2024-12-15 | 2024-12-16 | 2024-12-17|
 |--- | ------ | ------ | ------ | ------ | ------ | ---|
-|46360 | 48579 | 48596 | 48744 | 48972 | 49047 | 49055|
+|48579 | 48596 | 48744 | 48972 | 49047 | 49055 | 49038|
 ## Recently Added Files
 | templates name | 
 | --- |
-| wp_go_maps.yaml |
-| hue-wireless-lighting.yaml |
+| cve-2021-26722.yaml |
+| unencrypted-bigip-ltm-cookie-10973.yaml |
+| shopware-detect-10210.yaml |
+| apphp-microblog-rce.yaml |
+| sophos-fw-version-detect-10398.yaml |
+| actuator.yaml |
+| strapi-cms-detect-10537.yaml |
+| mautic-crm-detect-8787.yaml |
+| 4147374715.yaml |
+| wazuh-detect-11110.yaml |
+| ruijie-nbr1300g-cli-password-leak-9934.yaml |
+| bullwark-momentum-lfi-804.yaml |
+| shenzhoushuma-DCME-320-online_list-fileread.yaml |
+| subdomain-takeOver.yaml |
+| CVE-2024-36404.yaml |
+| CVE-2024-38819.yaml |

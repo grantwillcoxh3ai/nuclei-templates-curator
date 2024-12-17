@@ -4,7 +4,7 @@ info:
   name: Kronos Workforce Central Panel
   author: emadshanab
   severity: info
-  tags: panel,kronos
+  tags: panel
 
 requests:
   - method: GET

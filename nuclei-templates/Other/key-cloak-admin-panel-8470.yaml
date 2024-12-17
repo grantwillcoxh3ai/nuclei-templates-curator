@@ -4,7 +4,7 @@ info:
   name: Keycloak Admin Panel
   author: incogbyte,righettod
   severity: info
-  tags: panel,keycloak
+  tags: panel
 
 requests:
   - method: GET

@@ -4,7 +4,7 @@ info:
   name: RouterOS router configuration page login
   author: dhiyaneshDK
   severity: info
-  tags: panel,router
+  tags: panel
   metadata:
     shodan-query: 'http.title:"RouterOS router configuration page"'
 
