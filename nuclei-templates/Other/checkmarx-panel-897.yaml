@@ -4,7 +4,7 @@ info:
   name: Checkmarx WebClient detector
   author: joanbono
   severity: info
-  tags: panel,checkmarx
+  tags: panel
 
 requests:
   - method: GET
