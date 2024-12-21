@@ -5,7 +5,7 @@ info:
   author: dhiyaneshDK
   severity: info
   reference: https://www.exploit-db.com/ghdb/7116
-  tags: panel,service
+  tags: panel
 
 requests:
   - method: GET

@@ -2,9 +2,9 @@ id: weblogic-login
 
 info:
   name: Weblogic Login Panel
-  author: bing0o,meme-lord
+  author: bing0o
   severity: info
-  tags: panel,oracle,weblogic,login
+  tags: panel,weblogic
   metadata:
     shodan-query: product:"Oracle Weblogic"
 
@@ -22,9 +22,3 @@ requests:
       - type: status
         status:
           - 200
-
-    extractors:
-      - type: regex
-        group: 1
-        regex:
-          - 'WebLogic Server Version: (.*?)<'

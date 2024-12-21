@@ -1,16 +1,10 @@
 id: nameserver-fingerprint
 
 info:
-  name: NS Record Detection
+  name: NS Fingerprint
   author: pdteam
   severity: info
-  description: An NS record was detected. An NS record delegates a subdomain to a set of name servers.
   tags: dns,ns
-  classification:
-    cvss-metrics: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N
-    cvss-score: 0.0
-    cve-id:
-    cwe-id: CWE-200
 
 dns:
   - name: "{{FQDN}}"
@@ -26,5 +20,3 @@ dns:
         group: 1
         regex:
           - "IN\tNS\t(.+)"
-
-# Enhanced by mp on 2022/03/14
