@@ -5,7 +5,7 @@ info:
   author: ahmetpergamum
   severity: info
   reference: https://www.exploit-db.com/ghdb/7008
-  tags: panel,watchguard
+  tags: panel
 
 requests:
   - method: GET

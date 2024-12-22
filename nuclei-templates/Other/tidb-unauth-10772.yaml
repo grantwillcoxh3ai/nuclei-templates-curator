@@ -6,7 +6,7 @@ info:
   severity: high
   metadata:
     zoomeye-dork: tidb +port:"4000"
-  tags: network,tidb,unauth
+  tags: network,tidb
 
 network:
   - inputs:
@@ -16,7 +16,7 @@ network:
 
     host:
       - "{{Hostname}}"
-      - "{{Host}}:4000"
+      - "{{Hostname}}:4000"
 
     read-size: 1024
 
