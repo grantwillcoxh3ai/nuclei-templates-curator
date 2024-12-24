@@ -1,11 +1,9 @@
 id: olivetti-crf-detect
-
 info:
   name: Olivetti CRF Detect
   author: pussycat0x
   severity: info
-  metadata:
-    shodan-query: http.title:"Olivetti CRF"
+  reference: https://www.shodan.io/search?query=http.title%3A%22Olivetti+CRF%22
   tags: tech,olivetti
 
 requests:

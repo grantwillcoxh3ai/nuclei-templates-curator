@@ -1,0 +1,22 @@
+id: x-forwarded-host
+
+info:
+  name: X-Forwarded-Host Injection
+  author: ProjectDiscoveryAI
+  severity: low
+  description: |
+    This template checks for potential vulnerabilities related to the X-Forwarded-Host header, which can be manipulated to bypass security mechanisms or improperly handle requests.
+    
+http:
+  - raw:
+      - |
+        GET / HTTP/1.1
+        Host: {{Hostname}}
+        X-Forwarded-Host: evil.com
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        words:
+          - "evil"
+        part: body
