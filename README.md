@@ -19,51 +19,63 @@
 | CVE-2015 | 533 |
 | CVE-2016 | 257 |
 | CVE-2017 | 410 |
-| CVE-2018 | 525 |
+| CVE-2018 | 524 |
 | CVE-2019 | 759 |
-| CVE-2020 | 1095 |
-| CVE-2021 | 2204 |
-| CVE-2022 | 2965 |
-| CVE-2023 | 5147 |
-| CVE-2024 | 7938 |
-| Other | 26543 |
+| CVE-2020 | 1096 |
+| CVE-2021 | 2200 |
+| CVE-2022 | 2967 |
+| CVE-2023 | 5146 |
+| CVE-2024 | 7965 |
+| Other | 26563 |
 ## Changes in quantity in recent days
-|2024-12-18 | 2024-12-19 | 2024-12-20 | 2024-12-21 | 2024-12-22 | 2024-12-23 | 2024-12-24|
+|2024-12-19 | 2024-12-20 | 2024-12-21 | 2024-12-22 | 2024-12-23 | 2024-12-24 | 2024-12-25|
 |--- | ------ | ------ | ------ | ------ | ------ | ---|
-|49066 | 49132 | 49163 | 62585 | 49587 | 49593 | 49623|
+|49132 | 49163 | 62585 | 49587 | 49593 | 49623 | 49667|
 ## Recently Added Files
 | templates name | 
 | --- |
-| tiki.yaml |
-| fortigate-certificate.yaml |
-| ack-cluster-network-policies-missing.yaml |
-| ricoh-webimagemonitor-panel.yaml |
-| ack-cluster-api-public.yaml |
-| alibaba-cloud-code-env.yaml |
-| oos-bucket-public-access.yaml |
-| sse-cmk-disabled.yaml |
-| easycvr-arbitrary-file-read.yaml |
-| cleo-detect.yaml |
-| ack-cluster-network-policies-disable.yaml |
-| infinitt-pacs-info-leak.yaml |
-| fortiwifi-certificate.yaml |
-| fortianalyzer-certificate.yaml |
-| infinitt-pacs-file-upload.yaml |
-| access-logoss-disabled.yaml |
-| kubernetes-dashboard-enabled.yaml |
-| limit-networkaccess-disabled.yaml |
-| onedev.yaml |
-| improper-bucket-sse.yaml |
-| fortiauthenticator.yaml |
-| secure-transfeross-disabled.yaml |
-| ack-cluster-auditing-disable.yaml |
-| public-actiontrail-bucket.yaml |
-| fortimanager-certificate.yaml |
-| ack-cluster-cloud-monitor-disable.yaml |
-| openobserve-panel.yaml |
-| sse-smk-disabled.yaml |
-| ack-cluster-health-disable.yaml |
-| fortiddos.yaml |
-| CVE-2024-11303.yaml |
-| CVE-2024-11230.yaml |
-| CVE-2024-8859.yaml |
+| ai-content.yaml |
+| image-widget.yaml |
+| plugversions.yaml |
+| fangzheng-xinwencaibian-reportCenter-sqli.yaml |
+| wc-price-history.yaml |
+| optio-dentistry.yaml |
+| wp-umbrella-lfi.yaml |
+| database-backup.yaml |
+| bitcoin-lightning-publisher.yaml |
+| shmapper-by-teplitsa.yaml |
+| advanced-google-recaptcha.yaml |
+| export-customers-data.yaml |
+| content-no-cache.yaml |
+| ninjateam-telegram.yaml |
+| advanced-floating-content.yaml |
+| CVE-2024-8721.yaml |
+| CVE-2024-12100.yaml |
+| CVE-2024-12850.yaml |
+| CVE-2024-12468.yaml |
+| CVE-2024-12405.yaml |
+| CVE-2024-8968.yaml |
+| CVE-2024-56145.yaml |
+| CVE-2024-12617.yaml |
+| CVE-2024-12881.yaml |
+| CVE-2024-12034.yaml |
+| CVE-2024-12031.yaml |
+| CVE-2024-12518.yaml |
+| CVE-2024-10856.yaml |
+| CVE-2024-12814.yaml |
+| CVE-2024-11896.yaml |
+| CVE-2024-12268.yaml |
+| CVE-2024-11726.yaml |
+| CVE-2024-12266.yaml |
+| CVE-2024-12103.yaml |
+| CVE-2024-10678.yaml |
+| CVE-2024-12594.yaml |
+| CVE-2024-10584.yaml |
+| CVE-2024-12710.yaml |
+| CVE-2024-12210.yaml |
+| CVE-2024-11885.yaml |
+| CVE-2024-10555.yaml |
+| CVE-2024-12622.yaml |
+| CVE-2024-10706.yaml |
+| CVE-2024-12507.yaml |
+| CVE-2024-10939.yaml |
