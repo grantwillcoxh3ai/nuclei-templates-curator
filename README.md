@@ -18,35 +18,30 @@
 | CVE-2014 | 435 |
 | CVE-2015 | 533 |
 | CVE-2016 | 257 |
-| CVE-2017 | 410 |
-| CVE-2018 | 524 |
+| CVE-2017 | 409 |
+| CVE-2018 | 525 |
 | CVE-2019 | 760 |
 | CVE-2020 | 1096 |
-| CVE-2021 | 2200 |
-| CVE-2022 | 2967 |
-| CVE-2023 | 5148 |
-| CVE-2024 | 7979 |
-| Other | 26567 |
+| CVE-2021 | 2201 |
+| CVE-2022 | 2966 |
+| CVE-2023 | 5146 |
+| CVE-2024 | 7981 |
+| Other | 26533 |
 ## Changes in quantity in recent days
-|2024-12-20 | 2024-12-21 | 2024-12-22 | 2024-12-23 | 2024-12-24 | 2024-12-25 | 2024-12-26|
+|2024-12-21 | 2024-12-22 | 2024-12-23 | 2024-12-24 | 2024-12-25 | 2024-12-26 | 2024-12-27|
 |--- | ------ | ------ | ------ | ------ | ------ | ---|
-|49163 | 62585 | 49587 | 49593 | 49623 | 49667 | 49688|
+|62585 | 49587 | 49593 | 49623 | 49667 | 49688 | 49654|
 ## Recently Added Files
 | templates name | 
 | --- |
-| drupal-node.yaml |
-| wte-elementor-widgets.yaml |
-| dlogic.yaml |
-| woo-point-of-sale.yaml |
-| marketking-multivendor-marketplace-for-woocommerce.yaml |
-| youdatasum-CPAS-downPlugs-downloadfile.yaml |
-| CVE-2024-11223.yaml |
-| CVE-2024-12190.yaml |
-| CVE-2024-12413.yaml |
-| CVE-2024-12272.yaml |
-| CVE-2024-11281.yaml |
-| CVE-2024-12335.yaml |
-| CVE-2024-10862.yaml |
-| CVE-2024-12032.yaml |
-| CVE-2024-12428.yaml |
-| CVE-2024-12636.yaml |
+| CVE-2023-48788.yaml |
+| 1759150654.yaml |
+| dtexploit-authdb-privilege-escalation.yaml |
+| wp-form-exploit.yaml |
+| http-request-smuggling.yaml |
+| webroot-enumeration.yaml |
+| Swagger.yaml |
+| CVE-2024-42327.yaml |
+| CVE-2024-55557.yaml |
+| CVE-2024-11972.yaml |
+| CVE-2024-53376.yaml |
