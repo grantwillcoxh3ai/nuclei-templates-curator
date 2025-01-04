@@ -67178,5 +67178,10 @@
     "CVE-2024-11921.yaml": "2024-12-30 02:30:27",
     "CVE-2024-12238.yaml": "2024-12-30 02:30:27",
     "1403294277.yaml": "2025-01-02 02:27:43",
-    "jeeplus-cms-resetpassword-sqli.yaml": "2025-01-03 02:32:04"
+    "jeeplus-cms-resetpassword-sqli.yaml": "2025-01-03 02:32:04",
+    "founder-xinwencaibian-imageProxy-download.yaml": "2025-01-04 02:23:59",
+    "dahua-zhinengwulian-GetClassValue-rce.yaml": "2025-01-04 02:23:59",
+    "cloudlog-panel.yaml": "2025-01-04 02:23:59",
+    "i-librarian-panel.yaml": "2025-01-04 02:23:59",
+    "CVE-2024-12132.yaml": "2025-01-04 02:23:59"
 }

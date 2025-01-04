@@ -19,19 +19,23 @@
 | CVE-2015 | 533 |
 | CVE-2016 | 257 |
 | CVE-2017 | 409 |
-| CVE-2018 | 525 |
-| CVE-2019 | 759 |
+| CVE-2018 | 524 |
+| CVE-2019 | 760 |
 | CVE-2020 | 1095 |
-| CVE-2021 | 2200 |
-| CVE-2022 | 2968 |
+| CVE-2021 | 2204 |
+| CVE-2022 | 2966 |
 | CVE-2023 | 5148 |
-| CVE-2024 | 7982 |
-| Other | 26535 |
+| CVE-2024 | 7983 |
+| Other | 26541 |
 ## Changes in quantity in recent days
-|2024-12-28 | 2024-12-29 | 2024-12-30 | 2024-12-31 | 2025-01-01 | 2025-01-02 | 2025-01-03|
+|2024-12-29 | 2024-12-30 | 2024-12-31 | 2025-01-01 | 2025-01-02 | 2025-01-03 | 2025-01-04|
 |--- | ------ | ------ | ------ | ------ | ------ | ---|
-|49655 | 49400 | 49659 | 49654 | 49656 | 49664 | 49658|
+|49400 | 49659 | 49654 | 49656 | 49664 | 49658 | 49667|
 ## Recently Added Files
 | templates name | 
 | --- |
-| jeeplus-cms-resetpassword-sqli.yaml |
+| founder-xinwencaibian-imageProxy-download.yaml |
+| dahua-zhinengwulian-GetClassValue-rce.yaml |
+| cloudlog-panel.yaml |
+| i-librarian-panel.yaml |
+| CVE-2024-12132.yaml |
