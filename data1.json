@@ -67201,5 +67201,7 @@
     "CVE-2024-12583.yaml": "2025-01-05 02:32:45",
     "CVE-2024-10957.yaml": "2025-01-05 02:32:45",
     "contact-form-7-plugin.yaml": "2025-01-06 02:28:57",
-    "cloudlog-system-sqli.yaml": "2025-01-06 02:28:57"
+    "cloudlog-system-sqli.yaml": "2025-01-06 02:28:57",
+    "exposed-docker.yaml": "2025-01-07 02:28:57",
+    "wp-redux-check.yaml": "2025-01-07 02:28:57"
 }
