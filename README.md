@@ -20,43 +20,105 @@
 | CVE-2016 | 256 |
 | CVE-2017 | 408 |
 | CVE-2018 | 524 |
-| CVE-2019 | 760 |
+| CVE-2019 | 759 |
 | CVE-2020 | 1095 |
-| CVE-2021 | 2199 |
+| CVE-2021 | 2198 |
 | CVE-2022 | 2967 |
-| CVE-2023 | 5148 |
-| CVE-2024 | 8447 |
+| CVE-2023 | 5149 |
+| CVE-2024 | 8506 |
 | CVE-2025 | 0 |
-| Other | 26932 |
+| Other | 26964 |
 ## Changes in quantity in recent days
-|2025-01-12 | 2025-01-13 | 2025-01-14 | 2025-01-15 | 2025-01-16 | 2025-01-17 | 2025-01-18|
+|2025-01-13 | 2025-01-14 | 2025-01-15 | 2025-01-16 | 2025-01-17 | 2025-01-18 | 2025-01-19|
 |--- | ------ | ------ | ------ | ------ | ------ | ---|
-|50284 | 50282 | 50283 | 50296 | 50456 | 50493 | 50515|
+|50282 | 50283 | 50296 | 50456 | 50493 | 50515 | 50605|
 ## Recently Added Files
 | templates name | 
 | --- |
-| mybookprogress.yaml |
-| eventer.yaml |
-| rss-icon-widget.yaml |
-| palo-alto-vpn-CVE-2024-0012-check-wt.yaml |
-| moving-users.yaml |
-| glofox-shortcodes.yaml |
-| quote-post-type-plugin.yaml |
-| CVE-2024-13377.yaml |
-| CVE-2024-13366.yaml |
-| CVE-2024-47575.yaml |
-| CVE-2024-13398.yaml |
-| CVE-2024-12637.yaml |
-| CVE-2024-13434.yaml |
-| CVE-2024-12203.yaml |
-| CVE-2024-12508.yaml |
-| CVE-2024-12466.yaml |
-| CVE-2024-55591.yaml |
-| CVE-2024-10799.yaml |
-| CVE-2024-13401.yaml |
-| CVE-2024-12370.yaml |
-| CVE-2024-13386.yaml |
-| CVE-2024-13367.yaml |
-| CVE-2024-12598.yaml |
-| CVE-2024-13333.yaml |
-| CVE-2024-13378.yaml |
+| CVE-2022-47429.yaml |
+| CVE-2023-22697.yaml |
+| CVE-2023-35051.yaml |
+| CVE-2018-25106.yaml |
+| 8-degree-coming-soon-page.yaml |
+| elite-notification.yaml |
+| shiptimize-for-woocommerce.yaml |
+| nebulax.yaml |
+| easy-blocks-pro.yaml |
+| utilities-for-mtg.yaml |
+| board-document-manager-from-chuhpl.yaml |
+| torod.yaml |
+| ni-crm-lead.yaml |
+| advanced-options-editor.yaml |
+| tydskrif.yaml |
+| gtpayment-donation.yaml |
+| screenshot-machine-shortcode.yaml |
+| exhibit-to-wp-gallery.yaml |
+| wpsyncsheets-elementor.yaml |
+| connect-contact-form-7-to-constant-contact-v3.yaml |
+| shipworks-e-commerce-bridge.yaml |
+| wso2.yaml |
+| popup-surveys.yaml |
+| buzzclub.yaml |
+| eyewear-prescription-form.yaml |
+| webcamconsult.yaml |
+| ni-woocommerce-product-editor.yaml |
+| CVE-2024-13432.yaml |
+| CVE-2024-10858.yaml |
+| CVE-2024-12311.yaml |
+| CVE-2024-10499.yaml |
+| CVE-2024-54252.yaml |
+| CVE-2024-54259.yaml |
+| CVE-2024-54241.yaml |
+| CVE-2024-13515.yaml |
+| CVE-2024-54239.yaml |
+| CVE-2024-9641.yaml |
+| CVE-2024-13519.yaml |
+| CVE-2024-54256.yaml |
+| CVE-2024-54258.yaml |
+| CVE-2024-54248.yaml |
+| CVE-2024-12568.yaml |
+| CVE-2024-55991.yaml |
+| CVE-2024-11607.yaml |
+| CVE-2024-10637.yaml |
+| CVE-2024-10102.yaml |
+| CVE-2024-54234.yaml |
+| CVE-2024-11605.yaml |
+| CVE-2024-12385.yaml |
+| CVE-2024-7097.yaml |
+| CVE-2024-12071.yaml |
+| CVE-2024-13375.yaml |
+| CVE-2024-13516.yaml |
+| CVE-2024-54249.yaml |
+| CVE-2024-10562.yaml |
+| CVE-2024-54257.yaml |
+| CVE-2024-9881.yaml |
+| CVE-2024-12696.yaml |
+| CVE-2024-11636.yaml |
+| CVE-2024-54236.yaml |
+| CVE-2024-11108.yaml |
+| CVE-2024-12566.yaml |
+| CVE-2024-37251.yaml |
+| CVE-2024-12096.yaml |
+| CVE-2024-54238.yaml |
+| CVE-2024-55998.yaml |
+| CVE-2024-54343.yaml |
+| CVE-2024-56002.yaml |
+| CVE-2024-54237.yaml |
+| CVE-2024-12302.yaml |
+| CVE-2024-13391.yaml |
+| CVE-2024-5333.yaml |
+| CVE-2024-55864.yaml |
+| CVE-2024-54235.yaml |
+| CVE-2024-13317.yaml |
+| CVE-2024-54233.yaml |
+| CVE-2024-13393.yaml |
+| CVE-2024-12567.yaml |
+| CVE-2024-13385.yaml |
+| CVE-2024-54246.yaml |
+| CVE-2024-10903.yaml |
+| CVE-2024-13392.yaml |
+| CVE-2024-13517.yaml |
+| CVE-2024-13433.yaml |
+| CVE-2024-13184.yaml |
+| CVE-2024-55995.yaml |
+| CVE-2024-11849.yaml |
