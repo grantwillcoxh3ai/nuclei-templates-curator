@@ -1,0 +1,35 @@
+id: uber-phish
+
+info:
+  name: uber phishing Detection
+  author: rxerium
+  severity: info
+  description: |
+    A uber phishing website was detected
+  reference:
+    - https://uber.com
+  metadata:
+    max-request: 1
+  tags: phishing,uber,osint
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+
+    host-redirects: true
+    max-redirects: 2
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        words:
+          - 'Explore the Uber Platform | Uber'
+
+      - type: status
+        status:
+          - 200
+
+      - type: dsl
+        dsl:
+          - '!contains(host,"uber.com")'
+# digest: 490a004630440220151606c1d8f383845953e444fc943e4d23e36d6b8fbb634a2e3aa4fd7320d2650220064dd959a1a7c486bb9b50db3a0c5b5415100b318448bb38d181e818aa0cc318:922c64590222798bb761d5b6d8e72950

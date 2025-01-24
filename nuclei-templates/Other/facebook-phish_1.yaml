@@ -1,0 +1,35 @@
+id: facebook-phish
+
+info:
+  name: Facebook phishing Detection
+  author: rxerium
+  severity: info
+  description: |
+    A Facebook phishing website was detected
+  reference:
+    - https://facebook.com
+  metadata:
+    max-request: 1
+  tags: phishing,facebook,osint
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+
+    host-redirects: true
+    max-redirects: 2
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        words:
+          - 'Facebook – log in or sign up'
+
+      - type: status
+        status:
+          - 200
+
+      - type: dsl
+        dsl:
+          - '!contains(host,"facebook.com")'
+# digest: 4b0a00483046022100c5b106e6954a88f0375b6e4715633ed74256d3f92ab22f07578f753a140c5d5d022100863d5e7e05a84b74f6624da395383cc69dc3886e3ba07368935b40a51fe67988:922c64590222798bb761d5b6d8e72950

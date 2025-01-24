@@ -1,0 +1,35 @@
+id: best-buy-phish
+
+info:
+  name: best buy phishing Detection
+  author: rxerium
+  severity: info
+  description: |
+    A best buy phishing website was detected
+  reference:
+    - https://bestbuy.com
+  metadata:
+    max-request: 1
+  tags: phishing,bestbuy,osint
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+
+    host-redirects: true
+    max-redirects: 2
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        words:
+          - 'Best Buy | Official Online Store | Shop Now &amp; Save'
+
+      - type: status
+        status:
+          - 200
+
+      - type: dsl
+        dsl:
+          - '!contains(host,"bestbuy.com")'
+# digest: 4a0a00473045022100ceac1d9241b091ff085a04c5313e6bc11e60224bb7a16a5f6a7fca2ecafcc8ee02206513b7d82b470ee72ee59e24f97d6ba0cab845a5c1e9630224c64d4163fcadca:922c64590222798bb761d5b6d8e72950

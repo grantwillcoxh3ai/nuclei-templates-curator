@@ -1,0 +1,35 @@
+id: lastpass-phish
+
+info:
+  name: lastpass phishing Detection
+  author: rxerium
+  severity: info
+  description: |
+    A lastpass phishing website was detected
+  reference:
+    - https://lastpass.com
+  metadata:
+    max-request: 1
+  tags: phishing,lastpass,osint
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+
+    host-redirects: true
+    max-redirects: 2
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        words:
+          - '#1 Password Manager &amp; Vault App with Single-Sign On &amp; MFA Solutions - LastPass'
+
+      - type: status
+        status:
+          - 200
+
+      - type: dsl
+        dsl:
+          - '!contains(host,"lastpass.com")'
+# digest: 490a0046304402201a6f56f724c24bc927a96160cc8982a614d666477481867b85197b6d1a681d81022033ca55e84d0d199044778b6dfdb7a86f1cbce60302b4cdd997eb8f27ff9cb3d1:922c64590222798bb761d5b6d8e72950

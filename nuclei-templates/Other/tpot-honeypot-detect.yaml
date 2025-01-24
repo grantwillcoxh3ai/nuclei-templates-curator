@@ -8,8 +8,9 @@ info:
     A tpot dashboard has been detected
   reference:
     - https://github.com/telekom-security/tpotce
+  metadata:
+    max-request: 1
   tags: tpot,honeypot
-
 http:
   - method: GET
     path:
@@ -28,4 +29,4 @@ http:
       - type: status
         status:
           - 200
-# digest: 4b0a0048304602210092e8c105082a6686c4a5241f7fe90b7fe5f5f14e5e65ee874e138dd69c1462b3022100d38690efa1cc7e6e88c421640d5647ef94b715ac36a843d633116ae915c69d6e:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a004730450220712719cc87ddb1d9a3665816b6cc8e36a66308a33c31cf7c61ca8796c1dc05dd02210086307ccf5d665dbc350ebaf7c1917424c53349398ac64b3e01f55127b88a269e:922c64590222798bb761d5b6d8e72950
