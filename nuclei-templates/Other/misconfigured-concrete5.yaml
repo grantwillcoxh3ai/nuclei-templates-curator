@@ -6,7 +6,7 @@ info:
   severity: low
   tags: misconfig,concrete,cms
 
-http:
+requests:
   - method: GET
     path:
       - "{{BaseURL}}"

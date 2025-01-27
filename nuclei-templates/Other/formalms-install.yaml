@@ -6,7 +6,7 @@ info:
   severity: high
   tags: misconfig,formalms
 
-http:
+requests:
   - method: GET
     path:
       - '{{BaseURL}}/install/'
