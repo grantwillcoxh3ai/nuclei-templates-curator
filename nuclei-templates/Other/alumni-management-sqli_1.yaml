@@ -14,8 +14,6 @@ info:
     cvss-score: 10.0
     cwe-id: CWE-89
   tags: sqli,auth-bypass,cms,edb,alumni
-  metadata:
-    max-request: 2
 
 http:
   - raw:

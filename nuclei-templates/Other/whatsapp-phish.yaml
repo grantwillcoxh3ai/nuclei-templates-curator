@@ -1,0 +1,35 @@
+id: Whatsapp-phish
+
+info:
+  name: Whatsapp phishing Detection
+  author: rxerium
+  severity: info
+  description: |
+    A Whatsapp phishing website was detected
+  reference:
+    - https://whatsapp.com
+  metadata:
+    max-request: 1
+  tags: phishing,whatsapp,osint
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+
+    host-redirects: true
+    max-redirects: 2
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        words:
+          - 'WhatsApp | Secure and Reliable Free Private Messaging and Callings'
+
+      - type: status
+        status:
+          - 200
+
+      - type: dsl
+        dsl:
+          - '!contains(host,"whatsapp.com")'
+# digest: 4a0a0047304502200ec520e80bc608a3af53a7850c8c28b787ecd10ba5b3b9573915f68016f30251022100fa36ce816d55fd666ce7829c6db28c83bbec6dbe6eb4faeaf6ddf9b1a3ff66eb:922c64590222798bb761d5b6d8e72950

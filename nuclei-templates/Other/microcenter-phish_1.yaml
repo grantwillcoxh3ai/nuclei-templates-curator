@@ -1,0 +1,35 @@
+id: microcenter-phish
+
+info:
+  name: microcenter phishing Detection
+  author: rxerium
+  severity: info
+  description: |
+    A microcenter phishing website was detected
+  reference:
+    - https://microcenter.com
+  metadata:
+    max-request: 1
+  tags: phishing,microcenter,osint
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+
+    host-redirects: true
+    max-redirects: 2
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        words:
+          - 'Micro Center - Computer & Electronics Retailer - Shop Now'
+
+      - type: status
+        status:
+          - 200
+
+      - type: dsl
+        dsl:
+          - '!contains(host,"microcenter.com")'
+# digest: 490a0046304402204c91295549bc70c8b4421041cb4af6ab2a2157f19cfc3ac90cc64fdb4c3bc0f702206dedc910f0d83e4e35172e90f2e07e48967af2efb1ec6ab423d4a6761472cd26:922c64590222798bb761d5b6d8e72950
