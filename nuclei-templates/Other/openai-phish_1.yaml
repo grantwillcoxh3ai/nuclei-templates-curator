@@ -1,0 +1,35 @@
+id: openai-phish
+
+info:
+  name: openai phishing Detection
+  author: rxerium
+  severity: info
+  description: |
+    A openai phishing website was detected
+  reference:
+    - https://openai.com
+  metadata:
+    max-request: 1
+  tags: phishing,openai,osint
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+
+    host-redirects: true
+    max-redirects: 2
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        words:
+          - 'Log in to OpenAI to continue to OpenAI Platform.'
+
+      - type: status
+        status:
+          - 200
+
+      - type: dsl
+        dsl:
+          - '!contains(host,"openai.com")'
+# digest: 4a0a00473045022100a52fb349467f7b8c61a29be50ebc9adbe92d34f14155be988213952c65c601cf02203ef83f6415ba7df333f0c9f647129a5c3646e5f2ac344ee3b20aa2d1cddcc412:922c64590222798bb761d5b6d8e72950

@@ -1,0 +1,35 @@
+id: Wikipedia-phish
+
+info:
+  name: Wikipedia phishing Detection
+  author: rxerium
+  severity: info
+  description: |
+    A Wikipedia phishing website was detected
+  reference:
+    - https://wikipedia.com
+  metadata:
+    max-request: 1
+  tags: phishing,wikipedia,osint
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+
+    host-redirects: true
+    max-redirects: 2
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        words:
+          - 'Log in - Wikipedia'
+
+      - type: status
+        status:
+          - 200
+
+      - type: dsl
+        dsl:
+          - '!contains(host,"wikipedia.org")'
+# digest: 490a004630440220320f25a0a956471ed434d23bb66dc5135b4c1b650aa91adb853578b8f284b80302205596156ee84fe01cdb628f6d5f364ddd0512935b7ec4eae22d3829f405b3e733:922c64590222798bb761d5b6d8e72950

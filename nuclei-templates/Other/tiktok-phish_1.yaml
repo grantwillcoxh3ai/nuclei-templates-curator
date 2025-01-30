@@ -1,0 +1,35 @@
+id: tiktok-phish
+
+info:
+  name: tiktok phishing Detection
+  author: rxerium
+  severity: info
+  description: |
+    A tiktok phishing website was detected
+  reference:
+    - https://tiktok.com
+  metadata:
+    max-request: 1
+  tags: phishing,tiktok,osint
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+
+    host-redirects: true
+    max-redirects: 2
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        words:
+          - 'TikTok - Make Your Day'
+
+      - type: status
+        status:
+          - 200
+
+      - type: dsl
+        dsl:
+          - '!contains(host,"tiktok.com")'
+# digest: 4b0a00483046022100d5c0d789040850a24ef8b030b21f449544f9b590b64d0cf23a8edea586c76732022100870c6a2ef663729eda5ab52208cff00a2b39bd793635023f8513554a8e1daa98:922c64590222798bb761d5b6d8e72950
