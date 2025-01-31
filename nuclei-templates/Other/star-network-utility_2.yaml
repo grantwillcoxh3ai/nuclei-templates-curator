@@ -13,7 +13,7 @@ info:
     max-request: 1
     verified: true
     shodan-query: http.html:"Network Utility"
-  tags: panel,utility
+  tags: panel,network,utility
 
 http:
   - method: GET
