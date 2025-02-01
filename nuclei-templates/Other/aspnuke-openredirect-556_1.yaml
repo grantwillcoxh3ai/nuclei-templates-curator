@@ -6,7 +6,7 @@ info:
   severity: low
   tags: aspnuke,redirect
 
-http:
+requests:
   - method: GET
     path:
       - "{{BaseURL}}/gotoURL.asp?url=google.com&id=43569"

@@ -8,9 +8,9 @@ info:
   metadata:
     verified: true
     shodan-query: php.ini
-  tags: config,exposure,files
+  tags: config,exposure
 
-http:
+requests:
   - method: GET
     path:
       - "{{BaseURL}}/php.ini"

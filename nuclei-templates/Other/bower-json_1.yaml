@@ -2,10 +2,12 @@ id: bower-json
 
 info:
   name: bower.json file disclosure
-  author: oppsec
+  author: oppsec,noraj
   severity: info
   description: Bower is a package manager which stores package information in the bower.json file
-  tags: exposure
+  reference:
+    - https://github.com/bower/spec/blob/master/json.md
+  tags: exposure,files
 
 requests:
   - method: GET
