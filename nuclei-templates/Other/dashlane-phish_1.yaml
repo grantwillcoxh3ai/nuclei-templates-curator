@@ -1,0 +1,37 @@
+id: dashlane-phish
+
+info:
+  name: dashlane phishing Detection
+  author: rxerium
+  severity: info
+  description: |
+    A dashlane phishing website was detected
+  reference:
+    - https://dashlane.com
+  metadata:
+    max-request: 1
+  tags: phishing,dashlane,osint
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+
+    host-redirects: true
+    max-redirects: 2
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        words:
+          - 'Dashlane Password Manager'
+          - 'Dashlane Password Manager safeguards businesses &amp; people with easy-to-use, powerful features. Protect &amp; manage passwords and passkeys in one secure solution.'
+        condition: and
+
+      - type: status
+        status:
+          - 200
+
+      - type: dsl
+        dsl:
+          - '!contains(host,"dashlane.com")'
+# digest: 4a0a0047304502200d4b5cacc0e3d9223eaa00e3cf4c5f9ba6f4a07b2177bd13019ac4f8db9163a6022100b7740740ada948c8a6bea4bdeb2f2f7bbfacbe54e21391bcb5f90d643fc4ab78:922c64590222798bb761d5b6d8e72950

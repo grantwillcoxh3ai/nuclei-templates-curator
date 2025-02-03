@@ -1,0 +1,35 @@
+id: trading212-phish
+
+info:
+  name: trading212 phishing Detection
+  author: rxerium
+  severity: info
+  description: |
+    A trading212 phishing website was detected
+  reference:
+    - https://trading212.com
+  metadata:
+    max-request: 1
+  tags: phishing,trading212,osint
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+
+    host-redirects: true
+    max-redirects: 2
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        words:
+          - 'Commission-free investing for everyone | Trading 212'
+
+      - type: status
+        status:
+          - 200
+
+      - type: dsl
+        dsl:
+          - '!contains(host,"trading212.com")'
+# digest: 4a0a0047304502203cba2a8df645c2717c15061c428ce9e3388617e3658d307c7dac2a563517244a022100fc685987e5d952649c75941954798ef5c197e434228ba98d426442cd8c6743c8:922c64590222798bb761d5b6d8e72950
