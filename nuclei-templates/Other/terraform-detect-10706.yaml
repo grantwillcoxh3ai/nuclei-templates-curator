@@ -4,11 +4,12 @@ info:
   author: geeknik
   description: Write Infrastructure as Code - https://www.terraform.io/
   severity: info
-  tags: tech,terraform
+
 requests:
   - method: GET
     path:
       - "{{BaseURL}}/provider.tf"
+
     matchers-condition: and
     matchers:
       - type: word
@@ -17,6 +18,7 @@ requests:
           - access_key
           - terraform
         condition: and
+
       - type: status
         status:
           - 200
