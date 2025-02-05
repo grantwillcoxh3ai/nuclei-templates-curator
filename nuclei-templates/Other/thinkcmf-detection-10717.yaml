@@ -1,10 +1,15 @@
 id: thinkcmf-detection
 
 info:
-  name: ThinkCMF Detection
-  author: pikpikcu
+  name: ThinkCMF Panel - Detect
+  author: pikpikcu,daffainfo
   severity: info
-  tags: thinkcmf
+  description: ThinkCMF panel was detected.
+  classification:
+    cvss-metrics: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N
+    cvss-score: 0.0
+    cwe-id: CWE-200
+  tags: panel,thinkcmf,login,tech
 
 requests:
   - method: GET
@@ -13,13 +18,13 @@ requests:
 
     matchers-condition: and
     matchers:
-
       - type: word
+        part: body
         words:
-          - "X-Powered-By: ThinkCMF"
-        part: header
-        condition: and
+          - '<meta name="author" content="ThinkCMF">'
 
       - type: status
         status:
           - 200
+
+# Enhanced by md on 2023/01/30
