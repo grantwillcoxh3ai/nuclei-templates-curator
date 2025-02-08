@@ -1,0 +1,35 @@
+id: instagram-phish
+
+info:
+  name: instagram phishing Detection
+  author: rxerium
+  severity: info
+  description: |
+    A instagram phishing website was detected
+  reference:
+    - https://instagram.com
+  metadata:
+    max-request: 1
+  tags: phishing,instagram,osint
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+
+    host-redirects: true
+    max-redirects: 2
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        words:
+          - 'Login • Instagram'
+
+      - type: status
+        status:
+          - 200
+
+      - type: dsl
+        dsl:
+          - '!contains(host,"instagram.com")'
+# digest: 4b0a00483046022100a8c998db4e9d88e86a2bd15e2018ce34cb9086660722dd0887a5248f590dbcba022100d41d71135242c71180b8c54952a588920528f0aec6e1521c1ede7b480ef27d78:922c64590222798bb761d5b6d8e72950
