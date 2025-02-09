@@ -1,0 +1,37 @@
+id: visual-studio-code-phish
+
+info:
+  name: visual studio code phishing Detection
+  author: rxerium
+  severity: info
+  description: |
+    A visual studio code phishing website was detected
+  reference:
+    - https://visualstudio.com
+  metadata:
+    max-request: 1
+  tags: phishing,visual-studio-code,osint
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+
+    host-redirects: true
+    max-redirects: 2
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        words:
+          - 'Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.  Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.'
+          - 'Visual Studio Code - Code Editing. Redefined'
+        condition: and
+
+      - type: status
+        status:
+          - 200
+
+      - type: dsl
+        dsl:
+          - '!contains(host,"visualstudio.com")'
+# digest: 4b0a00483046022100b46e202c760c6cf8ec4921e4f5a816d77d2ce3ed530cf00b1eed65e34c840e3e022100fcbe4bed28fa928865e22411a11d2c57fd2a889ffc04a2b1d6abd902df8306b8:922c64590222798bb761d5b6d8e72950

