@@ -3,12 +3,10 @@ id: api-weglot
 info:
   name: WeGlot API Test
   author: zzeitlin
+  reference: https://developers.weglot.com/api/reference
   severity: info
-  reference:
-    - https://developers.weglot.com/api/reference
   tags: token-spray,weglot
 
-self-contained: true
 requests:
   - method: POST
     path:
