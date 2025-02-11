@@ -13,11 +13,10 @@ info:
     cvss-score: 7.2
     cwe-id: CWE-79
   metadata:
-    max-request: 1
     verified: true
   tags: onlinefarm,cms,xss,edb
 
-http:
+requests:
   - raw:
       - |
         POST /reviewInput.php?pid=1 HTTP/1.1
