@@ -1,26 +1,16 @@
 id: wishpond-takeover
-
 info:
-  name: Wishpond Takeover Detection
+  name: wishpond takeover detection
   author: pdteam
   severity: high
   reference:
     - https://github.com/EdOverflow/can-i-take-over-xyz
-  tags: takeover,wishpond
-
+  tags: takeover
 requests:
   - method: GET
     path:
       - "{{BaseURL}}"
-
-    matchers-condition: and
     matchers:
-      - type: dsl
-        dsl:
-          - Host != ip
-
       - type: word
         words:
           - https://www.wishpond.com/404?campaign=true
-          - 'Oops! There isn’t a Wishpond Campaign published to this page.'
-        condition: or

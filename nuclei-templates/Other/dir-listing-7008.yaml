@@ -3,9 +3,8 @@ id: dir-listing
 info:
   name: Directory listing enabled
   author: _harleo,pentest_swissky
-  severity: low
-  reference:
-    - https://portswigger.net/kb/issues/00600100_directory-listing
+  severity: info
+  reference: https://portswigger.net/kb/issues/00600100_directory-listing
   tags: misc,generic
 
 requests:

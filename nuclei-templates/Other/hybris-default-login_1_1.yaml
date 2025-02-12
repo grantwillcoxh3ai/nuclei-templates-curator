@@ -10,11 +10,12 @@ info:
     cvss-score: 8.3
     cwe-id: CWE-522
   metadata:
+    max-request: 3
     verified: true
     shodan-query: title:"Hybris"
   tags: default-login,hybris
 
-requests:
+http:
   - raw:
       - |
         GET /login HTTP/1.1

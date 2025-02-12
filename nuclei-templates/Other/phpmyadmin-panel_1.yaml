@@ -3,7 +3,9 @@ info:
   name: phpMyAdmin Panel
   author: pdteam
   severity: info
-  tags: panel
+  metadata:
+    shodan-query: http.title:phpMyAdmin
+  tags: panel,phpmyadmin
 requests:
   - method: GET
     path:
@@ -18,10 +20,13 @@ requests:
       - "{{BaseURL}}/typo3/phpmyadmin/"
       - "{{BaseURL}}/web/phpmyadmin/"
       - "{{BaseURL}}/xampp/phpmyadmin/"
+      - "{{BaseURL}}/phpMyAdmin/"
+    stop-at-first-match: true
     matchers:
       - type: word
         words:
-          - "<title>phpMyAdmin</title>"
+          - "<title>phpMyAdmin"
+          - "pmahomme"
     extractors:
       - type: regex
         part: body
