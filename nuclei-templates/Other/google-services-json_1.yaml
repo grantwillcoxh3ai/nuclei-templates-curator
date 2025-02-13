@@ -10,7 +10,7 @@ info:
     google-query: intitle:"index of" "google-services.json"
   tags: google,cloud,exposure,files
 
-http:
+requests:
   - method: GET
     path:
       - "{{BaseURL}}/google-services.json"

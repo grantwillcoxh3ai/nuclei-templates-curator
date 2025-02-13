@@ -4,7 +4,7 @@ info:
   name: Detect cookies present in the response
   author: anonymous
   severity: info
-  tags: http,noisy,cookie
+  tags: generic,cookie,noisy
 
 http:
   - pre-condition:
@@ -27,4 +27,3 @@ http:
         group: 1
         regex:
           - '(?i)Set-Cookie:\s([^=;]+)'
-

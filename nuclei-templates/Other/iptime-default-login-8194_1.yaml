@@ -1,5 +1,4 @@
 id: iptime-default-login
-
 info:
   name: ipTIME Default Login
   author: gy741
@@ -12,8 +11,7 @@ info:
     cvss-score: 8.3
     cwe-id: CWE-522
   tags: iptime,default-login
-
-http:
+requests:
   - raw:
       - |
         POST /sess-bin/login_handler.cgi HTTP/1.1
@@ -21,20 +19,17 @@ http:
         Referer: {{BaseURL}}/sess-bin/login_session.cgi
 
         username={{username}}&passwd={{password}}
-
     payloads:
       username:
         - admin
       password:
         - admin
     attack: pitchfork
-
     matchers-condition: and
     matchers:
       - type: status
         status:
           - 200
-
       - type: word
         words:
           - "setCookie"

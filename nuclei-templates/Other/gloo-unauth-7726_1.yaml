@@ -5,8 +5,10 @@ info:
   author: dhiyaneshDk
   severity: high
   tags: unauth,gloo
+  metadata:
+    max-request: 1
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/fed.rpc.solo.io.GlooInstanceApi/ListClusterDetails'

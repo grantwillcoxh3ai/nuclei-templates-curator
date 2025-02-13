@@ -10,7 +10,7 @@ info:
     max-request: 2
     verified: true
     shodan-query: 'product:"ActiveMQ OpenWire transport"'
-  tags: network,activemq
+  tags: network,activemq,detect
 
 tcp:
   - inputs:
@@ -18,7 +18,7 @@ tcp:
 
     host:
       - "{{Hostname}}"
-      - "{{Host}}:61616"
+    port: 61616
 
     matchers-condition: and
     matchers:

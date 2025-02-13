@@ -8,9 +8,8 @@ info:
     A ticket-master phishing website was detected
   reference:
     - https://ticketmaster.com
-  metadata:
-    max-request: 1
   tags: phishing,ticket-master,osint
+
 http:
   - method: GET
     path:
@@ -32,4 +31,4 @@ http:
       - type: dsl
         dsl:
           - '!contains(host,"ticketmaster.com")'
-# digest: 490a0046304402205a96836c71fe442ee5e7a67a5743a1bbdb1cdfe6bac166711e76c87fc9d0591502202e7669051cae8a24349923776c8137c090c7379ef81a592d3cc9a50f0ec25160:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a00473045022100be6d2c068e7b4307cb5fbd42a88b942c6723de9f83e2b0bfb1fce1301ebc89bb0220292d5e94be90a02f2cd5d416b1d5901180a902459e65c30f02d82cbf9339ac27:922c64590222798bb761d5b6d8e72950
