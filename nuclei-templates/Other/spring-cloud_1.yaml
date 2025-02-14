@@ -17,6 +17,6 @@ requests:
       - type: word
         words:
           - "spring-cloud"
-          - "X-Application-Context"	
+          - "X-Application-Context"    
         part: header
         condition: and
