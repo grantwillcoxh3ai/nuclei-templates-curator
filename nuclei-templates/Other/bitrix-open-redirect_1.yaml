@@ -5,11 +5,10 @@ info:
   author: pikpikcu
   severity: low
   description: The Bitrix Russia Site Management 2.0 accepts a user-controlled input that specifies a link to an external site, and uses that link in a Redirect.
-  reference:
-    - https://packetstormsecurity.com/files/151955/1C-Bitrix-Site-Management-Russia-2.0-Open-Redirection.html
+  reference: https://packetstormsecurity.com/files/151955/1C-Bitrix-Site-Management-Russia-2.0-Open-Redirection.html
   tags: redirect,bitrix
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/bitrix/rk.php?goto=https://example.com'
