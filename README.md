@@ -11,7 +11,7 @@
 | CVE-2007 | 63 |
 | CVE-2008 | 74 |
 | CVE-2009 | 49 |
-| CVE-2010 | 147 |
+| CVE-2010 | 146 |
 | CVE-2011 | 94 |
 | CVE-2012 | 158 |
 | CVE-2013 | 182 |
@@ -25,103 +25,96 @@
 | CVE-2021 | 2235 |
 | CVE-2022 | 2985 |
 | CVE-2023 | 5165 |
-| CVE-2024 | 9024 |
-| CVE-2025 | 1079 |
-| Other | 64810 |
+| CVE-2024 | 9040 |
+| CVE-2025 | 1115 |
+| Other | 64849 |
 ## Changes in quantity in recent days
-|2025-02-16 | 2025-02-17 | 2025-02-18 | 2025-02-19 | 2025-02-20 | 2025-02-21 | 2025-02-22|
+|2025-02-17 | 2025-02-18 | 2025-02-19 | 2025-02-20 | 2025-02-21 | 2025-02-22 | 2025-02-23|
 |--- | ------ | ------ | ------ | ------ | ------ | ---|
-|88812 | 88537 | 89434 | 89565 | 89444 | 89975 | 90189|
+|88537 | 89434 | 89565 | 89444 | 89975 | 90189 | 90279|
 ## Recently Added Files
 | templates name | 
 | --- |
-| CVE-2025-24688.yaml |
-| CVE-2025-24554.yaml |
-| CVE-2025-1489.yaml |
-| CVE-2025-22265.yaml |
-| CVE-2025-23596.yaml |
-| CVE-2025-23591.yaml |
-| CVE-2025-24549.yaml |
-| CVE-2025-24534.yaml |
-| CVE-2025-1410.yaml |
-| CVE-2025-22332.yaml |
-| CVE-2025-24598.yaml |
-| CVE-2025-24617.yaml |
-| CVE-2025-1407.yaml |
-| CVE-2025-24560.yaml |
-| CVE-2025-24563.yaml |
-| CVE-2025-23491.yaml |
-| CVE-2025-24567.yaml |
-| CVE-2025-1406.yaml |
-| CVE-2025-23755.yaml |
-| CVE-2025-24536.yaml |
-| CVE-2025-24628.yaml |
-| CVE-2025-22794.yaml |
-| CVE-2025-24559.yaml |
-| CVE-2025-23614.yaml |
-| CVE-2025-24626.yaml |
-| CVE-2025-23799.yaml |
-| CVE-2025-22775.yaml |
-| CVE-2025-24535.yaml |
-| CVE-2025-23840.yaml |
-| CVE-2025-23759.yaml |
-| CVE-2025-23599.yaml |
-| CVE-2025-1402.yaml |
-| CVE-2025-24734.yaml |
-| CVE-2025-22564.yaml |
-| CVE-2024-13379.yaml |
-| CVE-2024-13818.yaml |
-| CVE-2024-13713.yaml |
-| CVE-2024-13648.yaml |
-| CVE-2024-10222.yaml |
-| CVE-2024-13751.yaml |
-| CVE-2024-13096.yaml |
-| CVE-2024-13455.yaml |
-| CVE-2024-13672.yaml |
-| CVE-2024-13537.yaml |
-| CVE-2024-13388.yaml |
-| CVE-2024-12276.yaml |
-| CVE-2024-13353.yaml |
-| CVE-2024-13097.yaml |
-| CVE-2024-11260.yaml |
-| CVE-2024-13235.yaml |
-| CVE-2024-13846.yaml |
-| CVE-2024-13461.yaml |
-| CVE-2024-12452.yaml |
-| CVE-2024-13900.yaml |
-| CVE-2024-13883.yaml |
-| cleanup-light.yaml |
-| skt-donation.yaml |
-| notifikacie-sk.yaml |
-| tcbd-tooltip.yaml |
-| mini-course-generator.yaml |
-| signatures_30.yaml |
-| cloudflare-cache-purge.yaml |
-| reflected-xss-check.yaml |
-| c9-blocks.yaml |
-| ulp-duplicate-post-sql-timebased.yaml |
-| thrivedesk.yaml |
-| world-cup-predictor.yaml |
-| autoship-cloud.yaml |
-| emarksheet.yaml |
-| dportfolio.yaml |
-| 3d-photo-gallery.yaml |
-| affiliate-tools-viet-nam.yaml |
-| c9-admin-dashboard.yaml |
-| emi-calculator.yaml |
-| maps-for-wp.yaml |
-| amo-team-showcase.yaml |
-| pafacile.yaml |
-| intelligent-importer.yaml |
-| awcode-toolkit.yaml |
-| wp-notcaptcha.yaml |
-| ziggeo.yaml |
-| igumbi-online-booking.yaml |
-| vstemplate-creator.yaml |
-| tube-video-curator.yaml |
-| pie-calendar.yaml |
-| wp-additional-logins.yaml |
-| post-meta.yaml |
-| blu-logistics.yaml |
-| wp-finance.yaml |
-| newpost-catch.yaml |
+| CVE-2025-23657.yaml |
+| CVE-2025-24608.yaml |
+| CVE-2025-1361.yaml |
+| CVE-2025-23492.yaml |
+| CVE-2025-23652.yaml |
+| CVE-2025-23658.yaml |
+| CVE-2025-23851.yaml |
+| CVE-2025-24641.yaml |
+| CVE-2025-24699.yaml |
+| CVE-2025-23751.yaml |
+| CVE-2025-23474.yaml |
+| CVE-2025-24557.yaml |
+| CVE-2025-24616.yaml |
+| CVE-2025-23598.yaml |
+| CVE-2025-23671.yaml |
+| CVE-2025-0957.yaml |
+| CVE-2025-23787.yaml |
+| CVE-2025-23923.yaml |
+| CVE-2025-23790.yaml |
+| CVE-2025-23655.yaml |
+| CVE-2025-24558.yaml |
+| CVE-2025-22705.yaml |
+| CVE-2025-23789.yaml |
+| CVE-2025-24564.yaml |
+| CVE-2025-24576.yaml |
+| CVE-2025-23905.yaml |
+| CVE-2025-23685.yaml |
+| CVE-2025-0918.yaml |
+| CVE-2025-1509.yaml |
+| CVE-2025-23650.yaml |
+| CVE-2025-24676.yaml |
+| CVE-2025-1510.yaml |
+| CVE-2025-24620.yaml |
+| CVE-2025-23651.yaml |
+| CVE-2025-0953.yaml |
+| CVE-2025-24629.yaml |
+| CVE-2024-13564.yaml |
+| CVE-2024-13798.yaml |
+| CVE-2024-13899.yaml |
+| CVE-2024-12038.yaml |
+| CVE-2024-13873.yaml |
+| CVE-2024-13869.yaml |
+| CVE-2024-13119.yaml |
+| CVE-2024-4002.yaml |
+| CVE-2024-13125.yaml |
+| CVE-2024-13474.yaml |
+| CVE-2024-12770.yaml |
+| CVE-2024-13121.yaml |
+| CVE-2024-9645.yaml |
+| CVE-2024-7052.yaml |
+| CVE-2024-12467.yaml |
+| CVE-2024-13120.yaml |
+| smtp-sendgrid.yaml |
+| gf-excel-import.yaml |
+| contact-form-with-shortcode.yaml |
+| coronavirus-data-widgets.yaml |
+| better-wlm-api.yaml |
+| cf7-paystack-add-on.yaml |
+| mambo-joomla-importer.yaml |
+| custom-post-type-date-archives.yaml |
+| pago-redsys-tpv-grafreak.yaml |
+| scroll-to-top-builder.yaml |
+| advanced-angular-contact-form.yaml |
+| aio-shortcodes.yaml |
+| uix-page-builder.yaml |
+| add-custom-content-after-post.yaml |
+| disqus-popular-posts.yaml |
+| easy-broken-link-checker.yaml |
+| signatures_31.yaml |
+| data-dash.yaml |
+| salesforce-wordpress-to-candidate.yaml |
+| lockets.yaml |
+| romancart-on-wordpress.yaml |
+| wp-opensearch.yaml |
+| smtp-amazon-ses.yaml |
+| taobaoke.yaml |
+| admin-options-pages.yaml |
+| show-me-the-cookies.yaml |
+| live-dashboard.yaml |
+| ltl-freight-quotes-purolator-freight-edition.yaml |
+| tidyro.yaml |
+| easy-code-placement.yaml |
+| smtp-sendinblue.yaml |
