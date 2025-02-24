@@ -29,4 +29,4 @@ requests:
         part: body
         group: 1
         regex:
-          - 'CLIENT_VERSION\",					{type:ZmSetting.T_CONFIG, defaultValue:\"(.*?)"'
+          - 'CLIENT_VERSION\",                    {type:ZmSetting.T_CONFIG, defaultValue:\"(.*?)"'
