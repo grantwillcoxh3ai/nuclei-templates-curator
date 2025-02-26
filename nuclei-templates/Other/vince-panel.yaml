@@ -25,4 +25,4 @@ http:
           - 'status_code == 200'
           - 'contains_any(to_lower(body), "vince - high performance", "vince · open source web", "Welcome to Vince")'
         condition: and
-# digest: 490a0046304402207f8a8fe3ee65044df6bd9efc27ec59d8f80a3a27937e0b99e1c6cff5bf6ff89b02200294f421df32ca90841f7c74fd9d0ad8c739ebb0c27d0f916e0c4352c5190a02:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a00473045022100ccfc94a454c2fda5db1b38c25e0a42c0f681d2fb7582bf11c3cda84611b2af5d02203e8053428404244b60357fff47595893fec93f71d4f304aad681df10f830d568:922c64590222798bb761d5b6d8e72950
